@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  @@include("../inc/head.html", {
+    "type": "",
+    "theme": "#278D8F"
+  })
+</head>
+<body class="body main">
+  @@include("../inc/header.html", {
+    "type": "main",
+    "background": "1"
+  })
+  <!-- Main Visual: START -->
+  <section class="main_visual">
+    <a href="#">
+      <div class="img_wrap video">
+        <img src="https://picsum.photos/335/201" alt="" />
+        <div class="text">
+          <span class="sub_title">파리! 개막식</span>
+          <p class="contents">100년 만에 올림픽 여는 파리가 예술로 물든 이유 문화 전시·공연 열려 100년 만에 올림픽 여는 파리가 예술로 물든 이유 문화 전시·공연 열려
+          </p>
+          </div>
+      </div>
+    </a>
+    <ul class="list">
+      <li><a href="#"><span>프랑스비행단</span>올림픽 성화 도착 축하 프랑스 곡예비행단</a></li>
+      <li><a href="#"><span>배드민턴</span>올림픽 성화 도착 축하 프랑스 곡예비행단</a></li>
+      <li><a href="#"><span>골프</span>올림픽 성화 도착 축하 프랑스 곡예비행단</a></li>
+      <li><a href="#">올림픽 성화 도착 축하 프랑스 곡예비행단 올림픽 성화 도착 축하 프랑스 곡예비행단</a></li>
+    </ul>
+  </section>
+  <!-- Main Visual: END -->
+  @@include("../inc/navigation.html", {
+    "active": "n1",
+  })
+  <!-- 경기일정: START -->
+  <section class="component_wrap bg_sky">
+    <div class="border_container schedule">
+      <div class="top box">
+        <h2 class="title">7.28.토 경기 일정</h2>
+        <a href="#" class="more">더보기</a>
+      </div>
+      @@include("../inc/schedule.html",{
+        type: "main",
+        scroll: "true"
+      })
+    </div>
+  </section>
+  <!-- 경기일정: END -->
+
+
+
+  <!-- 주요 경기 일정 SAMPLE: START -->
+  <section class="component_wrap bg_sky">
+    <div class="border_container schedule">
+      <div class="top box">
+        <h2 class="title">주요 경기 일정</h2>
+        <a href="#" class="more">전체 일정 보기</a>
+      </div>
+      @@include("../inc/schedule.html",{
+        type: "main",
+        scroll: "false"
+      })
+    </div>
+  </section>
+  <!-- 주요 경기 일정 SAMPLE: END -->
+
+  <hr class="component_division">
+  <!-- 말말말: START -->
+  <section class="component_wrap">
+    <div class="top remove_border">
+      <h2 class="title">파리 말말말</h2>
+    </div>
+    @@include("../inc/swiper_slide.html", {
+      type: "mal",
+      navigation: "",
+      view: ""
+    })
+  </section>
+  <!-- 말말말: END -->
+  <hr class="component_division">
+  <!-- 메달순위: START -->
+  <section class="component_wrap">
+    <div class="top remove_border">
+      <h2 class="title">메달 순위</h2>
+      <a href="#" class="more">더보기</a>
+    </div>
+    <div class="medal_rank_table_wrap">
+      <table class="medal_rank_table">
+        <colgroup>
+          <col width="9%">
+          <col width="51%">
+          <col width="10%">
+          <col width="10%">
+          <col width="10%">
+          <col width="10%">
+        </colgroup>        
+        <thead>
+          <tr>
+            <th>순위</th>
+            <th>국가</th>
+            <th>금</th>
+            <th>은</th>
+            <th>동</th>
+            <th>합계</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="active link_el" data-href="medal.html">
+            <td>-</td>
+            <td><img src="https://via.placeholder.com/40x28" alt=""/>대한민국</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr class="link_el" data-href="medal.html">
+            <td>1</td>
+            <td><img src="https://via.placeholder.com/40x28" alt=""/>프랑스</td>
+            <td>89</td>
+            <td>80</td>
+            <td>30</td>
+            <td>210</td>
+          </tr>
+          <tr class="link_el" data-href="medal.html">
+            <td>2</td>
+            <td><img src="https://via.placeholder.com/40x28" alt=""/>호주</td>
+            <td>89</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>     
+          <tr class="link_el" data-href="medal.html">
+            <td>3</td>
+            <td><img src="https://via.placeholder.com/40x28" alt=""/>이탈리아</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>       
+          <tr class="link_el" data-href="medal.html">
+            <td>4</td>
+            <td><img src="https://via.placeholder.com/40x28" alt=""/>영국</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>             
+          <tr class="link_el" data-href="medal.html">
+            <td>5</td>
+            <td><img src="https://via.placeholder.com/40x28" alt=""/>러시아</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>               
+        </tbody>
+      </table>
+    </div>
+
+  </section>
+  <section class="component_wrap">
+    <div class="top remove_border">
+      <h2 class="title">메달 순위</h2>
+      <a href="#" class="more">더보기</a>
+    </div>
+    <div class="medal_rank_table_wrap">
+      <table class="medal_rank_table">
+        <colgroup>
+          <col width="9%">
+          <col width="51%">
+          <col width="10%">
+          <col width="10%">
+          <col width="10%">
+          <col width="10%">
+        </colgroup>        
+        <thead>
+          <tr>
+            <th>순위</th>
+            <th>국가</th>
+            <th>금</th>
+            <th>은</th>
+            <th>동</th>
+            <th>합계</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="link_el" data-href="medal.html">
+            <td>1</td>
+            <td><img src="https://via.placeholder.com/40x28" alt=""/>프랑스</td>
+            <td>89</td>
+            <td>80</td>
+            <td>30</td>
+            <td>210</td>
+          </tr>
+          <tr class="link_el" data-href="medal.html">
+            <td>2</td>
+            <td><img src="https://via.placeholder.com/40x28" alt=""/>호주</td>
+            <td>89</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>     
+          <tr class="active link_el" data-href="medal.html">
+            <td>3</td>
+            <td><img src="https://via.placeholder.com/40x28" alt=""/>대한민국</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>      
+          <tr class="link_el" data-href="medal.html">
+            <td>4</td>
+            <td><img src="https://via.placeholder.com/40x28" alt=""/>영국</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>             
+          <tr class="link_el" data-href="medal.html">
+            <td>5</td>
+            <td><img src="https://via.placeholder.com/40x28" alt=""/>러시아</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>               
+        </tbody>
+      </table>
+    </div>
+
+  </section>  
+  <!-- 메달순위: END -->
+  <hr class="component_division">
+  <section class="ad_wrap">
+    <iframe src="../iframe/ad320x150.html" title="광고영역" frameborder="0"></iframe>
+  </section>  
+  <hr class="component_division">
+  <!-- 뉴스 클러스터: START -->
+  <section class="component_wrap"> 
+    @@include("../inc/swiper_slide.html", {
+      type: "news",
+      navigation: "",
+      view: ""
+    })
+  </section>
+  <!-- 뉴스 클러스터: END -->
+  <hr class="component_division">
+  <!-- 포토: START -->
+  <section class="component_wrap"> 
+    <div class="top remove_border">
+      <h2 class="title">파리 포토</h2>
+      <a href="#" class="more">더보기</a>
+    </div>
+    @@include("../inc/swiper_slide.html", {
+      type: "photo",
+      navigation: "",
+      view: ""
+    })
+  </section>
+  <!-- 포토: END -->
+  <hr class="component_division">
+  <!-- 메달리스트: START-->
+  <section class="component_wrap">
+    <div class="border_container medalist">
+      <div class="top box">
+        <h2 class="title">메달리스트</h2>
+        <a href="#" class="more">더보기</a>
+      </div>
+      <ul class="medalist_wrap">
+        <li class="gold">
+          <a href="#">
+            <span class="time">3분전</span>
+            <div class="img_wrap photo">
+              <img src="https://picsum.photos/100/60" alt=""/>
+            </div>
+            <dl class="text">
+              <dt>양궁 여자 단체전</dt>
+              <dd>대한민국 여자 양궁 단체전에
+                안산 선수 금메달 금메달 금메달 대한민국은 양궁 전체 대한민국 여자 양궁 단체전에 안산 선수 금메달 금메달 금메달 대한민국은 양궁 전체</dd>
+            </dl>
+          </a>
+        </li>
+        <li class="silver">
+          <a href="#">
+            <span class="time">10시간 전</span>
+            <div class="img_wrap video">
+              <img src="https://picsum.photos/100/60" alt=""/>
+            </div>
+            <dl class="text">
+              <dt>양궁 여자 단체전</dt>
+              <dd>대한민국 여자 양궁 단체전에
+                안산 선수 금메달 금메달 금메달 대한민국은 양궁 전체 대한민국 여자 양궁 단체전에 안산 선수 금메달 금메달 금메달 대한민국은 양궁 전체</dd>
+            </dl>
+          </a>
+        </li>
+        <li class="bronze">
+          <a href="#">
+            <span class="time">9.26.화 10:20</span>
+            <dl class="text">
+              <dt>트라이애슬론 세부종목명</dt>
+              <dd>트라이애슬론 여자 결승에 참가하는 대한민국의 김삼순 선수 자랑스러운 동메달 트라이애슬론 여자 결승에 참가하는 대한민국의 김삼순 선수 자랑스러운 동메달</dd>
+            </dl>
+          </a>
+        </li>      
+      </ul>
+    </div>
+
+  </section>
+  <!-- 메달리스트: END -->
+  <hr class="component_division">
+  <!-- 비하인드: START -->
+  <section class="component_wrap">
+    <div class="top">
+      <h2 class="title">비하인드 파리</h2>
+      <a href="#" class="more">더보기</a>
+    </div>
+    <ul class="news_wrap list">
+      @@for(var i = 0; i < 2; i++){
+        <li>
+          <a href="#">
+            <div class="img_wrap">
+              <img src="https://picsum.photos/110/66" alt="">
+            </div>
+            <dl class="text_wrap">
+              <dt class="title">파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령</dt>
+            </dl>
+          </a>
+        </li>
+      }
+      @@for(var i = 0; i < 2; i++){
+        <li>
+          <a href="#">
+            <dl class="text_wrap">
+              <dt class="title">파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령</dt>
+            </dl>
+          </a>
+        </li>
+      }
+    </ul>
+  </section>
+  <!-- 비하인드: END -->
+  <hr class="component_division">
+  <!-- 랭킹뉴스: START -->
+  <section class="component_wrap">
+    <div class="top">
+      <h2 class="title">파리 랭킹뉴스</h2>
+      <a href="#" class="more">더보기</a>
+    </div>
+    @@include("../inc/swiper_slide.html", {
+      type: "rank",
+      navigation: "",
+      view: "",
+    })
+  </section>
+  <!-- 랭킹뉴스: END -->
+
+  <hr class="component_division">
+  <!-- POLL: START -->
+  <section class="component_wrap">
+    <div class="top remove_border">
+      <h2 class="title poll" aria-label="poll">
+        @@include("../svg/icon_poll_title.html")
+      </h2>
+      <a href="#" class="more">더보기</a>
+    </div>
+    @@include("../inc/poll_list.html")
+  </section>
+  <!-- POLL: END -->
+  <hr class="component_division">
+
+  @@include("../inc/footer.html")
+  @@include("../inc/scroll_top.html")
+  <script>
+    setSwiper();
+  </script>
+</body>
+</html>
