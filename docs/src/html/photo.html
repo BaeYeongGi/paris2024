@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  @@include("../include/head.html", {
+    "type": "",
+    "theme": "#278D8F"
+  })
+</head>
+<body class="body">
+  @@include("../include/header.html", {
+    "type": "",
+    "background": "2"    
+  })
+  @@include("../include/navigation.html", {
+    "active": "n3",
+  })
+  <section class="photo_container">
+    <ul class="photo_wrap">
+      @@for(var i = 0; i < 2; i++){
+        <li class="large">
+          <a href="#">
+            <div class="img_wrap photo">
+              <img src="https://picsum.photos/335/201" alt=""/>
+              <h2 class="title">파리올림픽 포스터 디자인은 파리올림픽 포스터 디자인은 파리올림픽 포스터 디자인은</h2>
+            </div>
+          </a>
+        </li>
+      }
+      @@for(var i = 0; i < 2; i++){
+        <li>
+          <a href="#">
+            <div class="img_wrap photo">
+              <img src="https://picsum.photos/162/97" alt=""/>
+            </div>
+            <h2 class="title">세계수영선수권 대회는 파리  올림픽  세계수영선수권 대회는 파리 올림픽</h2>
+          </a>
+        </li>
+      }
+    </ul>
+  </section>
+  <hr class="component_division">
+  <section class="ad_wrap">
+    <iframe src="../iframe/ad320x150.html" title="광고영역" frameborder="0"></iframe>
+  </section>  
+  <hr class="component_division">
+  <section class="photo_container">
+    <ul class="photo_wrap">
+      @@for(var i = 0; i < 2; i++){
+        <li class="large">
+          <a href="#">
+            <div class="img_wrap photo">
+              <img src="https://picsum.photos/335/201" alt=""/>
+              <h2 class="title">파리올림픽 포스터 디자인은 파리올림픽 포스터 디자인은 파리올림픽 포스터 디자인은</h2>
+            </div>
+          </a>
+        </li>
+      }
+      @@for(var i = 0; i < 8; i++){
+        <li>
+          <a href="#">
+            <div class="img_wrap photo">
+              <img src="https://picsum.photos/162/97" alt=""/>
+            </div>
+            <h2 class="title">세계수영선수권 대회는 파리  올림픽  세계수영선수권 대회는 파리 올림픽</h2>
+          </a>
+        </li>
+      }      
+      @@for(var i = 0; i < 5; i++){
+        <li class="large">
+          <a href="#">
+            <div class="img_wrap photo">
+              <img src="https://picsum.photos/335/201" alt=""/>
+              <h2 class="title">파리올림픽 포스터 디자인은 파리올림픽 포스터 디자인은 파리올림픽 포스터 디자인은</h2>
+            </div>
+          </a>
+        </li>
+      }      
+    </ul>
+  </section>
+  <hr class="component_division">
+  @@include("../include/component_more_button.html", {
+    type: "button",
+    arrow: "bottom",
+    value: '포토 더보기'
+  })
+  <hr class="component_division">
+
+  @@include("../include/footer.html")
+  @@include("../include/scroll_top.html")
+</body>
+</html>

@@ -1,0 +1,13 @@
+
+@@if(type === "link"){
+  <a href="#" class="component_more_button link">
+    @@value<span class="arrow @@arrow"></span>
+  </a>
+}
+
+@@if(type !== "link"){
+  <button class="component_more_button @@type">
+    @@value<span class="arrow @@arrow"></span>
+  </button>
+}
+

@@ -1,0 +1,94 @@
+@@if(type === "news"){
+  <ul class="menu item4">
+    <li>
+      <a href="news.html" @@if(active === "n1"){class="active"}>
+        @@if(active === "n1"){
+          <h1>주요뉴스</h1>
+        }
+        @@if(active !== "n1"){
+         주요뉴스
+        }      
+      </a>
+    </li>
+    <li>
+      <a href="rank.html" @@if(active === "n2"){class="active"}>
+        @@if(active === "n2"){
+          <h1>랭킹뉴스</h1>
+        }
+        @@if(active !== "n2"){
+         랭킹뉴스
+        }       
+      </a>
+    </li>
+    <li>
+      <a href="behind.html" @@if(active === "n3"){class="active"}>
+        @@if(active === "n3"){
+          <h1>비하인드</h1>
+        }
+        @@if(active !== "n3"){
+          비하인드
+        }       
+      </a>
+    </li>
+    <li>
+      <a href="recent.html" @@if(active === "n4"){class="active"}>
+        @@if(active === "n4"){
+          <h1>최신뉴스</h1>
+        }
+        @@if(active !== "n4"){
+          최신뉴스
+        }       
+      </a>
+    </li>
+  </ul>
+}
+
+@@if(type === "schedule"){
+  <ul class="menu item2">
+    <li>
+      <a href="dateschedule.html" @@if(active === "n1"){class="active"}>
+        @@if(active === "n1"){
+          <h1>날짜별</h1>
+        }
+        @@if(active !== "n1"){
+         날짜별
+        }      
+      </a>
+    </li>
+    <li>
+      <a href="eventschedule.html" @@if(active === "n2"){class="active"}>
+        @@if(active === "n2"){
+          <h1>종목별</h1>
+        }
+        @@if(active !== "n2"){
+         종목별
+        }       
+      </a>
+    </li>
+  </ul>
+}
+
+@@if(type === "medal"){
+  <ul class="menu item2">
+    <li>
+      <a href="medal.html" @@if(active === "n1"){class="active"}>
+        @@if(active === "n1"){
+          <h1>메달순위</h1>
+        }
+        @@if(active !== "n1"){
+          메달순위
+        }        
+      </a>
+    </li>
+    <li>
+      <a href="medalist.html" @@if(active === "n2"){class="active"}>
+        @@if(active === "n2"){
+          <h1>메달리스트</h1>
+        }
+        @@if(active !== "n2"){
+          메달리스트
+        }        
+      </a>
+    </li>
+  </ul>
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  @@include("../include/head.html", {
+    "type": "",
+    "theme": "#278D8F"
+  })
+</head>
+<body class="body">
+  @@include("../include/header.html", {
+    "type": "",
+    "background": "4"    
+  })
+  @@include("../include/navigation.html", {
+    "active": "n5",
+  })
+  @@include("../include/menu.html", {
+    "active": "n1",
+    "type": "medal"
+  })
+  <section class="component_wrap bg_sky">
+      <div class="medal_rank_table_wrap">
+        <ul class="medal_rank_table">
+          <table class="medal_rank_table">
+            <colgroup>
+              <col width="9%">
+              <col width="51%">
+              <col width="10%">
+              <col width="10%">
+              <col width="10%">
+              <col width="10%">
+            </colgroup>        
+            <thead>
+              <tr>
+                <th>순위</th>
+                <th>국가</th>
+                <th>금</th>
+                <th>은</th>
+                <th>동</th>
+                <th>합계</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td><img src="https://via.placeholder.com/40x28" alt="">투르크메니스탄</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td><img src="https://via.placeholder.com/40x28" alt="">프랑스</td>
+                <td>89</td>
+                <td>80</td>
+                <td>30</td>
+                <td>210</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td><img src="data:image/png;base64,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" alt="">미국</td>
+                <td>89</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>     
+              <tr>
+                <td>4</td>
+                <td><img src="https://via.placeholder.com/40x28" alt="">이탈리아</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>       
+              <tr class="active">
+                <td>5</td>
+                <td><img src="https://via.placeholder.com/40x28" alt="">대한민국</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>       
+              <tr class="info">
+                <td>&nbsp;</td>
+                <td>양궁</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+              </tr> 
+              <tr class="info">
+                <td>&nbsp;</td>
+                <td>트라이애슬론</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td>2</td>
+              </tr> 
+              <tr class="info">
+                <td>&nbsp;</td>
+                <td>수영</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+              </tr> 
+              <tr class="link">
+                <td colspan="6">
+                  <a href="#">메달리스트 보기</a>
+                </td>
+              </tr>                      
+              <tr>
+                <td>6</td>
+                <td><img src="https://via.placeholder.com/40x28" alt="">러시아</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>     
+              @@for(var i = 7; i < 21; i++){
+                <tr>
+                  <td>`+i+`</td>
+                  <td><img src="https://via.placeholder.com/40x28" alt="">이탈리아</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr> 
+              }  
+              <tr class="active">
+                <td>21</td>
+                <td><img src="https://via.placeholder.com/40x28" alt="">대한민국</td>
+                <td>34</td>
+                <td>80</td>
+                <td>30</td>
+                <td>23</td>
+              </tr>
+            </tbody>
+          </table>
+        </ul>
+        @@include("../include/component_more_button.html",{
+          "type": "button_border",
+          "arrow": "bottom",
+          "value": "더보기",
+        })
+      </div>
+  </section>
+
+  <section class="component_wrap bg_sky">
+    <div class="medal_history_title">
+      <dl>
+        <dt>역대 하계 올림픽 메달 순위</dt>
+        <dd>대한민국 기록</dd>
+      </dl>
+    </div>
+    
+    <div class="medal_history_bg">
+      <img src="@@ROOT/images/paris/m/img_medal_history.png" alt=""/>
+      <ul>
+        <li>2020도쿄 총 메달 수 20개 순위 16위 금메달 6개, 은메달 4개, 동메달 10개</li>
+        <li>2016 리우 총 메달 수 21개 순위 8위 금메달 9개, 은메달 3개, 동메달 9개</li>
+        <li>2012 런던 총 메달 수 30개 순위 5위 금메달 13개, 은메달 9개, 동메달 8개</li>
+        <li>2008 베이징 총 메달 수 32개 순위 7위 금메달 13개, 은메달 11개, 동메달 8개</li>
+        <li>2004 아테네 총 메달 수 30개 순위 9위 금메달 9개, 은메달 12개, 동메달 9개</li>
+        <li>2000 시드니 총 메달 수 28개 순위 12위 금메달 8개, 은메달 10개, 동메달 10개</li>
+        <li>1996 애틀랜타 총 메달 수 27개 순위 10위 금메달 7개, 은메달 15개, 동메달 5개</li>
+        <li>1992 바르셀로나 총 메달 수 29개 순위 7위 금메달 12개, 은메달 5개, 동메달 12개</li>
+        <li>1998 서울 총 메달 수 33개 순위 4위 금메달 12개, 은메달 10개, 동메달 11개</li>
+        <li>1984 LA 총 메달 수 19개 순위 10위 금메달 6개, 은메달 6개, 동메달 7개</li>
+        <li>1980 모스크바 불참</li>
+        <li>1976 몬트리올 총 메달 수 6개 순위 19위 금메달 1개, 은메달 1개, 동메달 4개</li>
+        <li>1972 뮌헨 총 메달 수 1개 순위 33위 금메달 0개, 은메달 1개, 동메달 0개</li>
+        <li>1968 멕시코시티 총 메달 수 2개 순위 36위 금메달 0개, 은메달 1개, 동메달 1개</li>
+        <li>1964 도쿄 총 메달 수 3개 순위 27위 금메달 0개, 은메달 2개, 동메달 1개</li>
+        <li>1960 로마 총 메달 수 0개 순위 해당사항 없음</li>
+        <li>1956 멜버른 총 메달 수 2개 순위 29위 금메달 0개, 은메달 1개, 동메달 1개</li>
+        <li>1952 헬싱키 총 메달 수 2개 순위 37위 금메달 0개, 은메달 0개, 동메달 2개</li>
+        <li>1948 런던 총 메달 수개 순위 위 금메달 0개, 은메달 0개, 동메달 2개</li>
+      </ul>
+      <span class="logo" aria-label="네이트 뉴스"></span>
+    </div>
+  </section>
+  <hr class="component_division">
+  <section class="ad_wrap">
+    <iframe src="../iframe/ad320x150.html" title="광고영역" frameborder="0"></iframe>
+  </section>  
+  @@include("../include/footer.html")
+  @@include("../include/scroll_top.html")
+  <script>
+
+    const getTableDataButton = document.querySelector('.component_more_button');
+    const tableContents = document.querySelector('.medal_rank_table tbody');
+
+    getTableDataButton.addEventListener('click', function(){
+      const tableCell = document.createElement('tr');
+      const tableData = `
+        <td>20</td>
+        <td><img src="https://via.placeholder.com/40x28" alt="">이탈리아</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      `;
+      tableCell.innerHTML = tableData;
+      tableContents.appendChild(tableCell);
+    })
+
+  </script>
+  </body>
+  </html>

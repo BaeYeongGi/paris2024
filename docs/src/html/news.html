@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  @@include("../include/head.html", {
+    "type": "",
+    "theme": "#278D8F"
+  })
+</head>
+<body class="body">
+  @@include("../include/header.html", {
+    "type": "",
+    "background": "1"
+  })
+  @@include("../include/navigation.html", {
+    "active": "n2",
+  })
+  @@include("../include/menu.html", {
+    "type": "news",
+    "active": "n1",
+  })
+  <div class="pagination_date">
+    <div class="paging_swiper_container">
+      <div class="swiper-container paging_swiper">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <a href="#" class="invalid">
+              <span class="key">수</span>
+              <span class="value">1</span>
+            </a>
+          </li>
+          @@for(var i = 3; i < 12; i++){
+            <li class="swiper-slide">
+              <a href="view_special.html">
+                <span class="key">목</span>
+                <span class="value">`+i+`</span>
+              </a>
+            </li>
+          }
+          <li class="swiper-slide">
+            <a href="view_special.html" class="current">
+              <span class="key">오늘</span>
+              <span class="value">2</span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <button class="prev" aria-label="다음날짜 4개 보여주기"></button>
+      <button class="next disabled" aria-label="이전날짜 4개 보여주기"></button>
+    </div>
+  </div>
+
+  <section class="component_wrap">
+    <div class="top">
+      <p class="title">기본형 클러스터</p>
+    </div>
+    <ul class="news_wrap list">
+      <li class="img_item">
+        <a href="#">
+          <div class="img_wrap video">
+            <img src="https://picsum.photos/110/66" alt="">
+          </div>
+          <dl class="text_wrap">
+            <dt class="title"><h2>파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령</h2></dt>
+            <dd class="info">
+              <span class="media">연합뉴스</span>
+            </dd>
+          </dl>
+        </a>
+      </li>
+      <li class="single">
+        <a href="#">
+          <h2 class="title"><strong>파리 올림픽 파리 올림픽 파리 올림픽 파리 올림픽 파리 올림픽</strong></h2>
+        </a>
+      </li>
+      @@for(var i = 0; i < 5; i++){
+        <li class="single">
+          <a href="#">
+            <h2 class="title">파리 올림픽 파리 올림픽 파리 올림픽 파리 올림픽 파리 올림픽</h2>
+          </a>
+        </li>
+      }     
+    </ul>
+  </section>
+  <hr class="component_division">
+  <section class="component_wrap">
+    <div class="top">
+      <p class="title">이미지 없는 기본형 클러스터</p>
+    </div>
+    <ul class="news_wrap list">
+      <li class="img_item">
+        <a href="#">
+          <dl class="text_wrap">
+            <dt class="title"><h2>파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령</h2></dt>
+            <dd class="info">
+              <span class="media">연합뉴스</span>
+            </dd>
+          </dl>
+        </a>
+      </li>
+      <li class="single">
+        <a href="#">
+          <h2 class="title"><strong>파리 올림픽 파리 올림픽 파리 올림픽 파리 올림픽 파리 올림픽</strong></h2>
+        </a>
+      </li>
+      @@for(var i = 0; i < 5; i++){
+        <li class="single">
+          <a href="#">
+            <h2 class="title">파리 올림픽 파리 올림픽 파리 올림픽 파리 올림픽 파리 올림픽</h2>
+          </a>
+        </li>
+      }     
+    </ul>
+  </section>
+  <hr class="component_division">
+  <section class="component_wrap">
+    <div class="top">
+      <p class="title">대립형 클러스터</p>
+    </div>
+    <ul class="news_wrap list">
+      @@for(var i = 0; i < 2; i++){
+      <li class="img_item">
+        <a href="#">
+          <div class="img_wrap">
+            <img src="https://picsum.photos/110/66" alt="">
+          </div>
+          <dl class="text_wrap">
+            <dt class="title">파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령</dt>
+            <dd class="info">
+              <span class="media">연합뉴스</span>
+            </dd>
+          </dl>
+        </a>
+      </li>
+      }  
+    </ul>  
+  </section>
+  <hr class="component_division">
+  <section class="component_wrap anchor" id="anchor1">
+    <div class="top">
+      <p class="title">이미지 없는 대립형 클러스터</p>
+    </div>
+    <ul class="news_wrap list">
+      @@for(var i = 0; i < 2; i++){
+      <li class="img_item">
+        <a href="#">
+          <dl class="text_wrap">
+            <dt class="title">파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령</dt>
+            <dd class="info">
+              <span class="media">연합뉴스</span>
+            </dd>
+          </dl>
+        </a>
+      </li>
+      }  
+    </ul>  
+  </section>
+  <hr class="component_division">
+
+  <section class="component_wrap">
+    <div class="top">
+      <p class="title">포토리스트형 클러스터</p>
+    </div>
+    <ul class="news_wrap photo">
+      @@for(var i = 0; i < 4; i++){
+        <li>
+          <a href="#">
+            <div class="img_wrap photo">
+              <img src="https://picsum.photos/168/115" alt="기사제목 기사제목 기사제목 기사제목기사제목 기사">
+            </div>
+            <h2 class="title">기사제목 기사제목 기사제목 기사제목기사제목 기사기사제목 기사제목 기사제목 기사제목기사제목 기사기사제목 기사제목 기사제목 기사제목기사제목 기사</h2>
+          </a>
+        </li>
+      }
+    </ul>
+  </section>
+  <hr class="component_division">
+  <section class="component_wrap anchor" id="anchor2">
+    <div class="top">
+      <p class="title">기사나열형 클러스터</p>
+    </div>
+    <ul class="news_wrap list">
+      @@for(var i = 0; i < 7; i++){
+        <li class="single">
+          <a href="#">
+            <h2 class="title">기사제목 기사제목 기사제목 기사제목 기사제목 기사제목 기사제목 기사제목 기사제목 기사제목</h2>
+          </a>
+        </li>
+      }
+    </ul>
+  </section>
+  <hr class="component_division">
+  <section class="component_wrap">
+    <ul class="news_wrap list">
+      <li>
+        <a href="#">
+          <div class="img_wrap">
+            <img src="https://picsum.photos/110/66" alt="">
+          </div>
+          <dl class="text_wrap">
+            <dt class="title"><h2>파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령</h2></dt>
+            <dd class="info">
+              <span class="media">연합뉴스</span>
+            </dd>
+          </dl>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <dl class="text_wrap">
+            <dt class="title"><h2>파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령</h2></dt>
+            <dd class="info">
+              <span class="media">연합뉴스</span>
+            </dd>
+          </dl>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <hr class="component_division">
+  <section class="component_wrap">
+    <ul class="news_wrap list single">
+      <li>
+        <a href="#">
+          <dl class="text_wrap">
+            <dt class="title"><h2>파리 올림픽</h2></dt>
+            <dd class="info">
+              <span class="media">연합뉴스</span>
+            </dd>
+          </dl>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <hr class="component_division">
+  <section class="component_wrap">
+    <ul class="news_wrap list single">
+      <li>
+        <a href="#">
+          <div class="img_wrap">
+            <img src="https://picsum.photos/110/66" alt="">
+          </div>
+          <dl class="text_wrap">
+            <dt class="title"><h2>파리 올림픽</h2></dt>
+            <dd class="info">
+              <span class="media">연합뉴스</span>
+            </dd>
+          </dl>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <hr class="component_division">
+  @@include("../include/component_more_button.html", {
+    type: "button",
+    arrow: "bottom",
+    value: '더보기'
+  })
+  <hr class="component_division">
+  <section class="ad_wrap">
+    <iframe src="../iframe/ad320x150.html" title="광고영역" frameborder="0"></iframe>
+  </section>  
+  <hr class="component_division">
+  @@include("../include/footer.html")
+  @@include("../include/scroll_top.html")
+  <script>
+   setSwiper();    
+   setAnchor();
+  </script>
+</body>
+</html>

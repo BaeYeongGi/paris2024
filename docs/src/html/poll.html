@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  @@include("../include/head.html", {
+    "type": "",
+    "theme": "#304A97"
+  })
+</head>
+<body class="body">
+  @@include("../include/header.html", {
+    "type": "poll",
+    "background": "5"    
+  })
+  @@include("../include/navigation.html", {
+    "active": "n6",
+  })
+  <section class="component_wrap">
+    <div class="border_container">
+      <div class="poll_contents type1">
+
+        <div class="text">
+          <span class="state going" aria-label="진행중"></span>
+          <dl>
+            <dt class="title"> 최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄</dt>
+            <dd class="info">
+              <span>9.13.수-9.25.월</span>
+              <span>999,999명</span>
+            </dd>
+          </dl>
+        </div>
+
+      </div>
+      <ul class="poll_check_list">
+        <li>
+          <input type="radio" name="poll" id="poll1">
+          <label for="poll1">
+            <span></span>
+            <p>두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄</p>
+            <div class="gauge"><span></span></div>
+          </label>
+ 
+
+        </li>
+        <li>
+          <input type="radio" name="poll" id="poll2">
+          <label for="poll2">
+            <span></span>
+            <p>
+            두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄
+            </p>
+            <div class="gauge"><span></span></div>
+          </label>
+
+        </li>     
+        <li>
+          <input type="radio" name="poll" id="poll3">
+          <label for="poll3">
+            <span></span>
+            <p>한 줄</p>
+            <div class="gauge"><span></span></div>
+          </label>
+        </li>                
+        <li>
+          <input type="radio" name="poll" id="poll4">
+          <label for="poll4">
+              <span></span>
+              <p>
+              두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄
+              </p> 
+              <div class="gauge"><span></span></div>
+          </label>
+  
+        </li>                      
+      </ul>
+      <div class="poll_buttons">
+        <button class="submit">투표하기</button>
+        <a href="poll_result.html" class="result">결과보기</a>
+      </div>
+    </div>
+    @@include("../include/poll_list.html")
+  </section>
+
+  @@include("reply.html")
+ 
+  <hr class="component_division">
+  <section class="ad_wrap">
+    <iframe src="../iframe/ad320x150.html" title="광고영역" frameborder="0"></iframe>
+  </section>  
+  <hr class="component_division">
+  @@include("../include/footer.html")
+  @@include("../include/scroll_top.html")
+  <script>
+    setPollBg();
+    setHorizontalScroll();
+  </script>
+</body>
+</html>

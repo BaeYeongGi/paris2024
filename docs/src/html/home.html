@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  @@include("../inc/head.html", {
+  @@include("../include/head.html", {
     "type": "",
     "theme": "#278D8F"
   })
 </head>
 <body class="body main">
-  @@include("../inc/header.html", {
+  @@include("../include/header.html", {
     "type": "main",
     "background": "1"
   })
@@ -31,7 +31,7 @@
     </ul>
   </section>
   <!-- Main Visual: END -->
-  @@include("../inc/navigation.html", {
+  @@include("../include/navigation.html", {
     "active": "n1",
   })
   <!-- 경기일정: START -->
@@ -41,7 +41,7 @@
         <h2 class="title">7.28.토 경기 일정</h2>
         <a href="#" class="more">더보기</a>
       </div>
-      @@include("../inc/schedule.html",{
+      @@include("../include/schedule.html",{
         type: "main",
         scroll: "true"
       })
@@ -52,18 +52,18 @@
 
 
   <!-- 주요 경기 일정 SAMPLE: START -->
-  <section class="component_wrap bg_sky">
+  <!-- <section class="component_wrap bg_sky">
     <div class="border_container schedule">
       <div class="top box">
         <h2 class="title">주요 경기 일정</h2>
         <a href="#" class="more">전체 일정 보기</a>
       </div>
-      @@include("../inc/schedule.html",{
+      @@include("../include/schedule.html",{
         type: "main",
         scroll: "false"
       })
     </div>
-  </section>
+  </section> -->
   <!-- 주요 경기 일정 SAMPLE: END -->
 
   <hr class="component_division">
@@ -72,7 +72,7 @@
     <div class="top remove_border">
       <h2 class="title">파리 말말말</h2>
     </div>
-    @@include("../inc/swiper_slide.html", {
+    @@include("../include/swiper_slide.html", {
       type: "mal",
       navigation: "",
       view: ""
@@ -239,7 +239,7 @@
   <hr class="component_division">
   <!-- 뉴스 클러스터: START -->
   <section class="component_wrap"> 
-    @@include("../inc/swiper_slide.html", {
+    @@include("../include/swiper_slide.html", {
       type: "news",
       navigation: "",
       view: ""
@@ -253,7 +253,7 @@
       <h2 class="title">파리 포토</h2>
       <a href="#" class="more">더보기</a>
     </div>
-    @@include("../inc/swiper_slide.html", {
+    @@include("../include/swiper_slide.html", {
       type: "photo",
       navigation: "",
       view: ""
@@ -348,7 +348,7 @@
       <h2 class="title">파리 랭킹뉴스</h2>
       <a href="#" class="more">더보기</a>
     </div>
-    @@include("../inc/swiper_slide.html", {
+    @@include("../include/swiper_slide.html", {
       type: "rank",
       navigation: "",
       view: "",
@@ -365,15 +365,16 @@
       </h2>
       <a href="#" class="more">더보기</a>
     </div>
-    @@include("../inc/poll_list.html")
+    @@include("../include/poll_list.html")
   </section>
   <!-- POLL: END -->
   <hr class="component_division">
 
-  @@include("../inc/footer.html")
-  @@include("../inc/scroll_top.html")
+  @@include("../include/footer.html")
+  @@include("../include/scroll_top.html")
   <script>
     setSwiper();
+    setTimeScroll('1355');
   </script>
 </body>
 </html>

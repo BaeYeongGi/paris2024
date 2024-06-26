@@ -1,0 +1,22 @@
+<nav class="nav">
+  <ul class="nav_menu">
+    <li>
+      <a href="home.html" @@if(active === "n1"){class="active"}>홈</a>
+    </li>
+    <li>
+      <a href="news.html" @@if(active === "n2"){class="active"}>뉴스</a>
+    </li>
+    <li>
+      <a href="photo.html" @@if(active === "n3"){class="active"}>포토</a>
+    </li>
+    <li>
+      <a href="dateschedule.html" @@if(active === "n4"){class="active"}>일정/결과</a>
+    </li>
+    <li>
+      <a href="medal.html" @@if(active === "n5"){class="active"}>메달</a>
+    </li>
+  </ul>
+  <a href="poll.html" @@if(active === "n6"){class="active poll"} class="poll" aria-label="poll" >
+    @@include("../svg/icon_poll.html")
+  </a>
+</nav>

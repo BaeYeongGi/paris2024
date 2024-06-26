@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  @@include("../include/head.html", {
+    "type": "",
+    "theme": "#278D8F"
+  })
+</head>
+<body class="body">
+  @@include("../include/header.html", {
+    "type": "",
+    "background": "3"
+  })
+  @@include("../include/navigation.html", {
+    "active": "n4",
+  })
+  @@include("../include/menu.html", {
+    "type": "schedule",
+    "active": "n1",
+  })
+  @@include("../include/pagination_schedule.html", {
+    type: "date"
+  })
+  <section class="schedule_wrap">
+    @@include("../include/component_more_button.html",{
+      "type": "link",
+      "arrow": "right",
+      "value": "9.24 경기 요약 보기",
+    })
+    <ul class="schedule_list">
+      <li>
+        <dl class="time over">
+          <dt><span>09:00</span></dt>
+          <dd aria-label="종료"></dd>
+        </dl>
+        <dl class="game">
+          <dt class="open"></dt>
+          <dd class="info"><div><strong>개회식</strong></div></dd>
+        </dl>
+      </li>
+      <li>
+        <dl class="time over">
+          <dt><span>09:20</span></dt>
+          <dd aria-label="종료"></dd>
+        </dl>
+        <dl class="game">
+          <dt class="surfing"></dt>
+          <dd class="info"><div><strong>서핑</strong></div></dd>
+        </dl>
+      </li>      
+      <li>
+        <dl class="time over">
+          <dt><span>09:40</span></dt>
+          <dd aria-label="종료"></dd>
+        </dl>
+        <dl class="game">
+          <dt class="archery"></dt>
+          <dd class="info">
+            <div><strong>양궁</strong>세부종목명</div>
+            <div class="medal">
+              <span class="gold"></span> 대한민국
+              <span class="silver"></span> 대한민국
+            </div>            
+          </dd>
+        </dl>
+      </li>      
+      <!-- 주요경기 class="active" -->
+      <li class="active">
+        <dl class="time gaming">
+          <dt><span>10:33</span></dt>
+          <dd aria-label="경기중"></dd>
+        </dl>
+        <dl class="game">
+          <dt class="fencing"></dt>
+          <dd class="info">
+            <div><strong>펜싱</strong>남자 사브레 단체 8강</div>
+            <div>대한민국 VS 인도네시아</div>
+          </dd>
+        </dl>
+      </li>   
+      <li>
+        <dl class="time gaming">
+          <dt><span>11:52</span></dt>
+          <dd aria-label="경기중"></dd>
+        </dl>
+        <dl class="game">
+          <dt class="triathlon"></dt>
+          <dd class="info">
+            <div><strong>트라이애슬론</strong> 여자 예선</div>
+            <div>홍길동, 홍길동, 홍길동, 홍길동, 홍길동, 홍길동, 홍길동, 홍길동, 홍길동, 홍길동,홍길동, 홍길동,</div>
+          </dd>
+        </dl>
+      </li>         
+      <li>
+        <dl class="time">
+          <dt><span>14:59</span></dt>
+        </dl>
+        <dl class="game">
+          <dt class="triathlon"></dt>
+          <dd class="info">
+            <div><strong>폐회식</strong></div>
+          </dd>
+        </dl>
+      </li>          
+    </ul>
+    @@include("../include/component_more_button.html",{
+      "type": "link",
+      "arrow": "right",
+      "value": "9.24 경기 요약 보기",
+    })
+
+  </section>
+  <hr class="component_division">
+  <section class="ad_wrap">
+    <iframe src="../iframe/ad320x150.html" title="광고영역" frameborder="0"></iframe>
+  </section>  
+  <hr class="component_division">
+
+  @@include("../include/footer.html")
+  @@include("../include/scroll_top.html")
+  <script>
+     setHorizontalScroll('date');
+     setTimeScroll('0916');
+  </script>
+</body>
+</html>

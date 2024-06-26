@@ -183,25 +183,30 @@ function setSwiper(){
         }
       }
     }
+    // slide Anchor
     const getIdString = items.querySelectorAll('.swiper-slide')[0].id.replace(/[0-9]/g, "");
- 
-
     const setSplit = !window.location.search.includes('&') ? '?' : '&';
     const setUrl = window.location.search.split(setSplit)[window.location.search.split(setSplit).length - 1];
-
     const getUrlString = setUrl.replace(/[0-9]/g, "");
    
+    const setSwiper =  new Swiper(items, options);
     if(getIdString === getUrlString){
-      const setSwiper =  new Swiper(items, options);
       const anchorSlides = items.querySelectorAll('.swiper-slide');
       anchorSlides.forEach(function(items, idx){
         if(items.id !== "" && items.id === setUrl){
           setSwiper.slideTo(idx);
         }
       })
-    } else {
-      new Swiper(items, options);
     }
+
+    // slide Anchor when a tag includes current className 
+    const swiperTabs = items.querySelectorAll('.swiper-slide > a');
+    swiperTabs.forEach(function(items, idx){
+      if(items.classList.contains('current')){
+        setSwiper.slideTo(idx);
+      }
+    })
+
   });
 }
 
@@ -239,12 +244,43 @@ function setAnchor(){
 }
 
 function setHorizontalScroll(pageType){
-  const xScroll = document.querySelector('.pagination_schedule');
-  const scrollItems = document.querySelectorAll('.pagination_schedule  > li > a')
-  const setWidth = pageType === 'date' ? 8 : 92
+  const xScroll = document.querySelector('.xscroll');
+  const scrollItems = document.querySelectorAll('.xscroll > li > a')
+  const setWidth = pageType === 'event' ? 92 : 8
   scrollItems.forEach(function(items){
     if(items.classList.contains('active')){
       xScroll.scrollLeft = items.getBoundingClientRect().left -setWidth;
     }
   })
+}
+
+function setTimeScroll(paramTime){
+  const times = document.querySelectorAll('.time > dt > span');
+  const nav = document.querySelector('.nav');
+  let isModule;
+  let scrollTarget;
+  times.forEach(function(items){
+    const eachTimes = items.textContent.replace(":", "");
+    if(paramTime >= eachTimes){
+      items.closest('li').classList.add('set_times');
+    }
+  })
+  const setTimes = document.querySelectorAll('.set_times');
+  const currentGame = setTimes[setTimes.length - 1];
+
+  if(document.querySelector('.schedule_wrap')){
+    isModule = false;
+    scrollTarget = window;
+  } else {
+    isModule = true;
+    scrollTarget = document.querySelector('.schedule_list');
+  }
+  
+  if(times && nav){
+    setTimeout(() => {
+      scrollTarget.scrollTo({
+        top: currentGame.offsetTop + (isModule ? 0 : -nav.offsetHeight)
+      })
+    }, 300);
+  }
 }

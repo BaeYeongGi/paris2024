@@ -1,0 +1,253 @@
+.medal_history_title{
+  display:flex;
+  align-items: center;
+  width:100%;
+  height:80px;
+  background-color:#1D97DC;
+  background-size:auto 80px;
+  background-position:right bottom;
+  background-image:url($icon-medal-history-bg);
+  background-repeat: no-repeat;
+  padding:0 0 0 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin:0 0 14px 0;
+  dl {
+    color:#fff;
+    line-height:22px;
+    letter-spacing: -1px;
+    dt {
+      font-size:13px;
+      font-family:$S-Core-Dream-5;
+    }
+    dd {
+      font-size:16px;
+      font-family:$S-Core-Dream-7;
+    }
+  }
+}
+
+.medal_history_bg {
+  padding:15px 30px;
+  box-sizing:border-box;
+  background-color:#fff;
+  border:1px solid #e6e5e5;
+  box-shadow:0 4px 4px 0 rgba(0,0,0,0.05);
+  text-align:right;
+  border-radius:4px;
+  img {
+    width:270px;
+    display:block;
+    // min-width:270px;
+    margin:0 auto;
+  }
+ li {
+  font-size:0;
+ } 
+ .logo {
+  display:block;
+  width:270px;
+  height:16px;
+  background-size:78px 16px;
+  background-image:url($icon-bottom-nate-logo);
+  background-repeat: no-repeat;
+  background-position:right center;
+  margin:15px auto 15px auto;
+ }
+
+
+}
+
+.medalist_tab {
+  display:flex;
+  justify-content: center;
+  margin:10px auto 0 auto;
+  width:calc(100% - 66px);
+  > li {
+    width:25%;
+    &:not(:last-child){
+      margin-right:12px;
+    }
+    > a {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      width:100%;
+      // width:68px;
+      height:32px;
+      border:1px solid #ccc;
+      background-color:#fff;
+      font-size:15px;
+      letter-spacing: -1px;
+      font-weight:300;
+      color:#000;
+      border:1px solid #ccc;
+      border-radius:4px;
+      &.invalid {
+        color:#bbb;
+      }
+      span {
+        display:block;
+        margin-right:4px;
+        background-repeat: no-repeat;
+      }
+      &.active {
+        background-color:$point;
+        color:#fff;
+        font-weight:700;
+      }
+      &.total {
+        span {
+          width:21px;
+          height:18px;
+          background-size:21px 18px;
+          background-image:url($icon-medal-total);
+        }
+      }
+      &.gold, &.silver, &.bronze {
+        span {
+          width:16px;
+          height:16px;
+          background-size:16px;
+        }
+      }
+      &.gold {
+        span {
+          background-image:url($icon-text-gold);
+        }
+      }
+      &.silver {
+        span {
+          background-image:url($icon-text-silver);
+        }
+      }
+      &.bronze {
+        span {
+          background-image:url($icon-text-bronze);
+        }
+      }
+    }
+  }
+}
+
+.medalist_prepare {
+  width:100%;
+  height:48px;
+  border-radius:4px;
+  background-color:#f3f6fa;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin:0 0 20px 0;
+  .medal {
+    width:18px;
+    height:25px;
+    background-size:18px 25px;
+    margin-right:5px;
+    background-image:url($icon-medalist-prepare-medal);
+  }
+  .text {
+    width:236px;
+    height:22px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url($icon-medalist-prepare-text);
+  }
+}
+
+.medalist_history_title {
+  width:100%;
+  height:80px;
+  background-color:#C00B0B;
+  border-radius:4px;
+  display:flex;
+  align-items: center;
+  padding:0 0 0 33px;
+  margin:0 0 14px 0;
+  box-sizing: border-box;
+  background-image:url($icon-medalist-bg);
+  background-repeat: no-repeat;
+  background-position:33px center;
+  background-size:270px 80px;
+  dl {
+    color:#fff;
+    font-family: $S-Core-Dream-5;
+    line-height:22px;
+    letter-spacing: -1px;
+    dt {
+      font-size:13px;
+    }
+    dd {
+      font-size:16px;
+    }
+  }
+  .medalist_history_medals {
+    display:flex;
+    margin-left:10px;
+    > li {
+      width:29px;
+      height:29px;
+      background-size:29px;
+      background-repeat: no-repeat;
+      display:flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      color:#fff;
+      font-size:11px;
+      font-family:$S-Core-Dream-7;
+      text-shadow: 0 0 3px rgba(0,0,0,0.6);
+      text-indent: -2px;
+      position:relative;
+      &:not(:last-child){
+        margin-right:-6px;
+      }
+      &.gold {
+        background-image:url($icon-medalist-gold);
+        z-index:2;
+      }
+      &.silver {
+        background-image:url($icon-medalist-silver);
+        z-index:1;
+      }
+      &.bronze {
+        background-image:url($icon-medalist-bronze);
+      }
+    }
+  }
+}
+.medalist_history_members_wrap {
+  background-color:#fff;
+  border:1px solid #e6e5e5;
+  border-radius:4px;
+  padding:15px 20px;
+  box-sizing:border-box;
+  box-shadow:0 4px 4px 0 rgba(0,0,0,0.05);
+  .medalist_history_members {
+    display:block;
+    width:270px;
+    margin:0 auto;
+  }
+  .medalist_history_memebers_text {
+    li {
+      font-size:0;
+    }
+  }
+}
+
+@media (max-width:360px){
+  .medalist_history_members_wrap {
+    .medalist_history_members {
+      width:100%;
+    }
+  }
+  .medal_history_bg {
+    img {
+      width:100%;
+    }
+    .logo {
+      width:100%;
+    }
+  }
+}

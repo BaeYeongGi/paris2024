@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  @@include("../include/head.html", {
+    "type": "",
+    "theme": "#278D8F"
+  })
+</head>
+<body class="body">
+  @@include("../include/header.html", {
+    "type": "",
+    "background": "4"    
+  })
+  @@include("../include/navigation.html", {
+    "active": "n5",
+  })
+  @@include("../include/menu.html", {
+    "active": "n2",
+    "type": "medal"
+  })
+
+  <ul class="medalist_tab">
+    <li><a href="#" class="total active"><span></span>전체</a></li>
+    <li><a href="#" class="gold"><span></span>금</a></li>
+    <li><a href="#" class="silver"><span></span>은</a></li>
+    <li><a href="#" class="bronze"><span></span>동</a></li>
+  </ul>
+  <!-- 비활성화 확인용:START -->
+  <ul class="medalist_tab">
+    <li><a href="#" class="total invalid"><span></span>전체</a></li>
+    <li><a href="#" class="gold invalid"><span></span>금</a></li>
+    <li><a href="#" class="silver invalid"><span></span>은</a></li>
+    <li><a href="#" class="bronze invalid"><span></span>동</a></li>
+  </ul>   
+  <!-- 비활성화 확인용:END -->
+  <section class="component_wrap">
+    <ul class="medalist_wrap">
+      <li class="gold">
+        <a href="#">
+          <span class="time recent">3분전</span>
+
+          <dl class="text">
+            <dt>
+              <div class="img_wrap video">
+                <img src="https://picsum.photos/100/60" alt=""/>
+              </div>              
+              양궁 여자 단체전
+            </dt>
+            <dd>대한민국 여자 양궁 단체전에
+              안산 선수 금메달 금메달 금메달 대한민국은 양궁 전체 대한민국 여자 양궁 단체전에 안산 선수 금메달 금메달 금메달 대한민국은 양궁 전체</dd>
+          </dl>
+        </a>
+      </li>
+      <li class="silver">
+        <a href="#">
+          <span class="time recent">10시간 전</span>
+
+          <dl class="text">
+            <dt>
+              <div class="img_wrap photo">
+                <img src="https://picsum.photos/100/60" alt=""/>
+              </div>
+              양궁 여자 단체전
+            </dt>
+            <dd>대한민국 여자 양궁 단체전에
+              안산 선수 금메달 금메달 금메달 대한민국은 양궁 전체 대한민국 여자 양궁 단체전에 안산 선수 금메달 금메달 금메달 대한민국은 양궁 전체</dd>
+          </dl>
+        </a>
+      </li>
+      <li class="bronze">
+        <a href="#">
+          <span class="time">9.26.화 10:20</span>
+          <dl class="text">
+            <dt>트라이애슬론 세부종목명</dt>
+            <dd>트라이애슬론 여자 결승에 참가하는 대한민국의 김삼순 선수 자랑스러운 동메달 트라이애슬론 여자 결승에 참가하는 대한민국의 김삼순 선수 자랑스러운 동메달</dd>
+          </dl>
+        </a>
+      </li>      
+    </ul>
+  </section>
+  <hr class="component_division">
+  @@include("../include/component_more_button.html", {
+    type: "button",
+    arrow: "bottom",
+    value: '더보기'
+  })
+  <hr class="component_division">
+
+  <section class="component_wrap">
+    <div class="medalist_prepare">
+      <span class="medal"></span>
+      <p class="text" aria-label="대한민국 메달 획득 시 업데이트 될 예정입니다"></p>
+    </div>
+    <div class="medalist_history_title">
+      <dl>
+        <dt>2020 도쿄 올림픽 영광의 메달리스트</dt>
+        <dd>대한민국 종합 16위</dd>
+      </dl>
+      <ul class="medalist_history_medals">
+        <li class="gold" aria-label="금메달">6</li>
+        <li class="silver" aria-label="은메달">4</li>
+        <li class="bronze" aria-label="동메달">10</li>
+      </ul>
+    </div>
+    <div class="medalist_history_members_wrap">
+      <img class="medalist_history_members" src="@@ROOT/images/paris/m/img_medalist_history.png" alt=""/>
+      <ul class="medalist_history_memebers_text">
+        <li></li>
+      </ul>
+    </div>
+  </section>
+  <hr class="component_division">
+  <section class="ad_wrap">
+    <iframe src="../iframe/ad320x150.html" title="광고영역" frameborder="0"></iframe>
+  </section>  
+  @@include("../include/footer.html")
+  @@include("../include/scroll_top.html")
+  </body>
+</html>

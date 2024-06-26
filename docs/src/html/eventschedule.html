@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  @@include("../include/head.html", {
+    "type": "",
+    "theme": "#278D8F"
+  })
+</head>
+<body class="body">
+  @@include("../include/header.html", {
+    "type": "",
+    "background": "3"
+  })
+  @@include("../include/navigation.html", {
+    "active": "n4",
+  })
+  @@include("../include/menu.html", {
+    "type": "schedule",
+    "active": "n2",
+  })
+  <div class="schedule_pagination_wrap">
+    @@include("../include/pagination_schedule.html", {
+      type: "event"
+    })
+  </div>
+  <section class="schedule_wrap">
+    <ul class="schedule_list">
+      <li>
+        <dl class="time over">
+          <dt>7.27.토 <span>09:10</span></dt>
+          <dd aria-label="종료"></dd>
+        </dl>
+        <dl class="game">
+          <dt class="surfing"></dt>
+          <dd class="info">
+            <div><strong>서핑</strong> 세부종목명</div>
+            <div>대한민국 6:0 일본</div>
+            <div class="medal">
+              <span class="gold"></span> 대한민국
+              <span class="silver"></span> 대한민국
+            </div>
+          </dd>
+        </dl>
+      </li>
+      <li>
+        <dl class="time over">
+          <dt>7.28.일 <span>09:22</span></dt>
+          <dd aria-label="종료"></dd>
+        </dl>
+        <dl class="game">
+          <dt class="archery"></dt>
+          <dd class="info">
+            <div><strong>양궁</strong>세부종목명</div>
+            <div class="medal">
+              <span class="gold"></span> 대한민국
+              <span class="silver"></span> 대한민국
+            </div>           
+          </dd>
+        </dl>
+      </li>      
+      <li>
+        <dl class="time gaming">
+          <dt>7.30.월 <span>09:33</span></dt>
+          <dd aria-label="경기중"></dd>
+        </dl>
+        <dl class="game">
+          <dt class="fencing"></dt>
+          <dd class="info">
+            <div><strong>펜싱</strong>남자 사브레 단체 8강</div>
+            <div>대한민국 VS 인도네시아</div>
+          </dd>
+        </dl>
+      </li>   
+      <li>
+        <dl class="time gaming">
+          <dt>7.30.월 <span>11:33</span></dt>
+          <dd aria-label="경기중"></dd>
+        </dl>
+        <dl class="game">
+          <dt class="fencing"></dt>
+          <dd class="info">
+            <div><strong>펜싱</strong>남자 사브레 단체 8강</div>
+            <div>대한민국 VS 인도네시아</div>
+          </dd>
+        </dl>
+      </li>  
+      <li>
+        <dl class="time gaming">
+          <dt>7.30.월 <span>12:53</span></dt>
+          <dd aria-label="경기중"></dd>
+        </dl>
+        <dl class="game">
+          <dt class="fencing"></dt>
+          <dd class="info">
+            <div><strong>펜싱</strong>남자 사브레 단체 8강</div>
+            <div>대한민국 VS 인도네시아</div>
+          </dd>
+        </dl>
+      </li>       
+      <li>
+        <dl class="time gaming">
+          <dt>7.28.일 <span>13:11</span></dt>
+          <dd aria-label="경기중"></dd>
+        </dl>
+        <dl class="game">
+          <dt class="triathlon"></dt>
+          <dd class="info">
+            <div><strong>트라이애슬론</strong> 여자 예선</div>
+            <div>홍길동, 홍길동, 홍길동, 홍길동, 홍길동, 홍길동, 홍길동, 홍길동, 홍길동, 홍길동,홍길동, 홍길동,</div>
+          </dd>
+        </dl>
+      </li>         
+      <li>
+        <dl class="time gaming">
+          <dt>7.28.일 <span>16:33</span></dt>
+          <dd aria-label="경기중"></dd>
+        </dl>
+        <dl class="game">
+          <dt class="triathlon"></dt>
+          <dd class="info">
+            <div><strong>트라이애슬론</strong> 여자 예선</div>
+            <div>홍길동, 홍길동, 홍길동, 홍길동, 홍길동, 홍길동, 홍길동, 홍길동, 홍길동, 홍길동,홍길동, 홍길동,</div>
+          </dd>
+        </dl>
+      </li>        
+      <li>
+        <dl class="time">
+          <dt>7.28.일 <span>17:40</span></dt>
+        </dl>
+        <dl class="game">
+          <dt class="close"></dt>
+          <dd class="info">
+            <div><strong>폐회식</strong></div>
+          </dd>
+        </dl>
+      </li>          
+    </ul>
+  </section>
+  <hr class="component_division">
+  <section class="ad_wrap">
+    <iframe src="../iframe/ad320x150.html" title="광고영역" frameborder="0"></iframe>
+  </section>  
+  <hr class="component_division">
+  @@include("../include/scroll_top.html")
+  @@include("../include/footer.html")
+  <script>
+    const layerPop = `
+    <div class="view_all_layer_pop">
+      <button class="title close_button">전체종목<span class="arrow"></span></button>
+      <ul>
+        <li><a href="#">골프</a></li>
+        <li><a href="#">근대5종</a></li>
+        <li><a href="#">농구</a></li>
+        <li><a href="#">럭비</a>
+        <li><a href="#">레슬링</a>
+        <li><a href="#">배구</a>
+        <li><a href="#">배드민턴</a>
+        <li><a href="#">복싱</a>
+        <li><a href="#">브레이킹</a>
+        <li><a href="#">사격</a>
+        <li><a href="#">사이클</a>
+        <li><a href="#">서핑</a>
+        <li><a href="#">수영</a>
+        <li><a href="#">스케이트</a>
+        <li><a href="#">승마</a>
+        <li><a href="#">양궁</a>
+        <li><a href="#">역도</a>
+        <li><a href="#">요트</a>
+        <li><a href="#">유도</a>
+        <li><a href="#">육상</a>
+        <li><a href="#">조정</a>
+        <li><a href="#">철인3종</a>
+        <li><a href="#">체조</a>
+        <li><a href="#">축구</a>
+        <li><a href="#">카누</a>
+        <li><a href="#">클라이밍</a>
+        <li><a href="#">탁구</a>
+        <li><a href="#">태권도</a>
+        <li><a href="#">테니스</a>
+        <li><a href="#">펜싱</a>
+        <li><a href="#">하키</a>
+        <li><a href="#">핸드볼</a>
+      </ul>
+    </div>
+    `;
+
+    viewAllEventsLayer(layerPop);
+    setHorizontalScroll('event');
+    setTimeScroll('1251');
+  </script>
+</body>
+</html>

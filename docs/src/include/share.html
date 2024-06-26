@@ -1,0 +1,31 @@
+<div id="sns_share_pop" style="display: none;">
+  <div class="sns_share_layer">
+    <button type="button" class="btnClosePopup">닫기</button>
+    <div class="title">공유하기</div>
+    <ul class="sns_btns">
+      <li><a class="no" title="새창으로 이동" id="sns-no" href="javascript:;" onclick="checkMobileAgent('네이트온 쪽지')?shareSNS('no'):false; ndrclick('RAM76'); return false;">네이트온</a></li>
+      <li><a class="kt" title="새창으로 이동" id="sns-kt" href="javascript:;" onclick="checkMobileAgent('카카오톡')?shareSNS('kt'):false; ndrclick('RAM002'); return false;">카카오톡</a></li>
+      <li><a class="fb" title="새창으로 이동" id="sns-fb" href="javascript:;" onclick="shareSNS('fb'); ndrclick('RAM77'); return false;">페이스북</a></li>
+      <li><a class="tw" title="새창으로 이동" id="sns-tw" href="javascript:;" onclick="shareSNS('tw'); ndrclick('RAM78'); return false;">엑스</a></li>
+      <li><a class="ks" title="새창으로 이동" id="sns-ks" href="javascript:;" onclick="checkMobileAgent('카카오스토리')?shareSNS('ks'):false; ndrclick('RAM003'); return false;">카카오스토리</a></li>
+      <li><a class="bd" title="새창으로 이동" id="sns-bd" href="javascript:;" onclick="checkMobileAgent('네이버 밴드')?shareSNS('bd'):false; ndrclick('RAM004'); return false;">밴드</a></li>
+      <li><a class="li" title="새창으로 이동" id="sns-li" href="javascript:;" onclick="checkMobileAgent('네이버 라인')?shareSNS('li'):false; ndrclick('RAM005'); return false;">라인</a></li>
+      <li><a class="lk" title="새창으로 이동" id="sns-url" href="javascript:;" onclick="shareSNS('lk'); ndrclick('RAM006'); return false;">URL 복사</a></li>
+    </ul>	
+  </div>
+  <div class="modal_backdrop"></div>
+</div>
+<script>
+    const dimmed = document.querySelector('.modal_backdrop');
+    document.querySelector('.btnClosePopup').addEventListener('click', (e) => {
+      dimmed.classList.remove('active');
+      e.target.parentElement.parentElement.style.display = 'none';
+    })
+  dimmed.addEventListener('click', function(e){
+    if(e.currentTarget === e.target){
+      dimmed.classList.remove('active');
+      document.getElementById('sns_share_pop').style.display = "none";
+    }
+  })
+</script>
+

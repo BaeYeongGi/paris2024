@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  @@include("../include/head.html", {
+    "type": "",
+    "theme": "#278D8F"
+  })
+</head>
+<body class="body">
+  @@include("../include/header.html", {
+    "type": "",
+    "background": "1"    
+  })
+  @@include("../include/navigation.html", {
+    "active": "n2",
+  })
+  @@include("../include/menu.html", {
+    "active": "n4",
+    "type": "news"
+  })
+  <section class="component_wrap">
+    <ul class="news_wrap list">
+      <li>
+        <a href="#">
+          <div class="img_wrap">
+            <img src="https://picsum.photos/110/66" alt="" />
+          </div>
+          <dl class="text_wrap">
+            <dt class="title"><h2>파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령</h2></dt>
+            <dd class="info">
+              <span class="media">연합뉴스</span>
+              <span class="time">3분전</span>
+            </dd>
+          </dl>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <dl class="text_wrap">
+            <dt class="title"><h2>파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령</h2></dt>
+            <dd class="info">
+              <span class="media">연합뉴스</span>
+              <span class="time">3분전</span>
+            </dd>
+          </dl>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="img_wrap">
+            <img src="https://picsum.photos/110/66" alt="" />
+          </div>
+          <dl class="text_wrap">
+            <dt class="title"><h2>파리 올림픽</h2></dt>
+            <dd class="info">
+              <span class="media">연합뉴스</span>
+              <span class="time">3분전</span>
+            </dd>
+          </dl>
+        </a>
+      </li> 
+      @@for(var i = 0; i < 4; i++){
+        <li>
+          <a href="#">
+            <dl class="text_wrap">
+              <dt class="title"><h2>파리 올림픽</h2></dt>
+              <dd class="info">
+                <span class="media">연합뉴스</span>
+                <span class="time">3분전</span>
+              </dd>
+            </dl>
+          </a>
+        </li>  
+      }     
+    </ul>
+  </section>
+  <hr class="component_division">
+  <section class="ad_wrap">
+    <iframe src="../iframe/ad320x150.html" title="광고영역" frameborder="0"></iframe>
+  </section>  
+  <hr class="component_division">
+  <section class="component_wrap">
+    <ul class="news_wrap list">
+      <li>
+        <a href="#">
+          <div class="img_wrap">
+            <img src="https://picsum.photos/110/66" alt="" />
+          </div>
+          <dl class="text_wrap">
+            <dt class="title"><h2>파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령</h2></dt>
+            <dd class="info">
+              <span class="media">연합뉴스</span>
+              <span class="time">3분전</span>
+            </dd>
+          </dl>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <dl class="text_wrap">
+            <dt class="title"><h2>파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령</h2></dt>
+            <dd class="info">
+              <span class="media">연합뉴스</span>
+              <span class="time">3분전</span>
+            </dd>
+          </dl>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="img_wrap">
+            <img src="https://picsum.photos/110/66" alt="" />
+          </div>
+          <dl class="text_wrap">
+            <dt class="title"><h2>파리 올림픽</h2></dt>
+            <dd class="info">
+              <span class="media">연합뉴스</span>
+              <span class="time">3분전</span>
+            </dd>
+          </dl>
+        </a>
+      </li> 
+      @@for(var i = 0; i < 3; i++){
+        <li>
+          <a href="#">
+            <dl class="text_wrap">
+              <dt class="title"><h2>파리 올림픽</h2></dt>
+              <dd class="info">
+                <span class="media">연합뉴스</span>
+                <span class="time">3분전</span>
+              </dd>
+            </dl>
+          </a>
+        </li>  
+      }  
+      <li>
+        <a href="#">
+          <dl class="text_wrap">
+            <dt class="title"><h2>파리 올림픽</h2></dt>
+            <dd class="info">
+              <span class="media">연합뉴스</span>
+              <span class="time">24.07.28 22:00</span>
+            </dd>
+          </dl>
+        </a>
+      </li>    
+    </ul>
+  </section>
+  <hr class="component_division">
+  @@include("../include/component_more_button.html", {
+    type: "button",
+    "arrow": 'bottom',
+    value: '최신뉴스 더보기'
+  })
+  <hr class="component_division">
+  <section class="ad_wrap">
+    <iframe src="../iframe/ad320x150.html" title="광고영역" frameborder="0"></iframe>
+  </section>  
+  <hr class="component_division">
+
+  @@include("../include/footer.html")
+  @@include("../include/scroll_top.html")
+</body>
+</html>

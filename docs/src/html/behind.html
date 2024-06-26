@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  @@include("../include/head.html", {
+    "type": "",
+    "theme": "#278D8F"
+  })
+</head>
+<body class="body">
+  @@include("../include/header.html", {
+    "type": "",
+    "background": "1"    
+  })
+  @@include("../include/navigation.html", {
+    "active": "n2",
+  })
+  @@include("../include/menu.html", {
+    "type": "news",
+    "active": "n3",
+  })
+  <section class="component_wrap">
+    <div class="top">
+      <p class="title">기본형 클러스터</p>
+    </div>
+    <ul class="news_wrap list">
+      <li class="img_item">
+        <a href="#">
+          <div class="img_wrap video">
+            <img src="https://picsum.photos/110/66" alt="">
+          </div>
+          <dl class="text_wrap">
+            <dt class="title"><h2>파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령</h2></dt>
+            <dd class="info">
+              <span class="media">연합뉴스</span>
+            </dd>
+          </dl>
+        </a>
+      </li>
+      <li class="single">
+        <a href="#">
+          <h2 class="title"><strong>파리 올림픽 파리 올림픽 파리 올림픽 파리 올림픽 파리 올림픽</strong></h2>
+        </a>
+      </li>
+      @@for(var i = 0; i < 5; i++){
+        <li class="single">
+          <a href="#">
+            <h2 class="title">파리 올림픽 파리 올림픽 파리 올림픽 파리 올림픽 파리 올림픽</h2>
+          </a>
+        </li>
+      }     
+    </ul>
+  </section>
+  <hr class="component_division">
+  <section class="component_wrap anchor" id="anchor1">
+    <div class="top">
+      <p class="title">기사나열형 클러스터</p>
+    </div>
+    <ul class="news_wrap list">
+      @@for(var i = 0; i < 7; i++){
+        <li class="single">
+          <a href="#">
+            <h2 class="title">기사제목 기사제목 기사제목 기사제목 기사제목 기사제목 기사제목 기사제목 기사제목 기사제목</h2>
+          </a>
+        </li>
+      }
+    </ul>
+  </section>
+  <hr class="component_division">
+  <section class="component_wrap">
+    <div class="top">
+      <p class="title">포토리스트형 클러스터</p>
+    </div>
+    <ul class="news_wrap photo">
+      @@for(var i = 0; i < 4; i++){
+        <li>
+          <a href="#">
+            <div class="img_wrap photo">
+              <img src="https://picsum.photos/168/115" alt="기사제목 기사제목 기사제목 기사제목기사제목 기사">
+            </div>
+            <h2 class="title">기사제목 기사제목 기사제목 기사제목기사제목 기사기사제목 기사제목 기사제목 기사제목기사제목 기사기사제목 기사제목 기사제목 기사제목기사제목 기사</h2>
+          </a>
+        </li>
+      }
+    </ul>
+  </section>
+  <hr class="component_division">
+  <section class="component_wrap anchor" id="anchor2">
+    <div class="top">
+      <p class="title">대립형 클러스터</p>
+    </div>
+    <ul class="news_wrap list">
+      @@for(var i = 0; i < 2; i++){
+      <li class="img_item">
+        <a href="#">
+          <div class="img_wrap">
+            <img src="https://picsum.photos/110/66" alt="">
+          </div>
+          <dl class="text_wrap">
+            <dt class="title">파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령</dt>
+            <dd class="info">
+              <span class="media">연합뉴스</span>
+            </dd>
+          </dl>
+        </a>
+      </li>
+      }  
+    </ul>  
+  </section>
+  <hr class="component_division">
+  @@include("../include/component_more_button.html", {
+    type: "button",
+    arrow: "bottom",
+    value: '더보기'
+  })
+  <hr class="component_division">
+  <section class="component_wrap">
+    <ul class="news_wrap list">
+      @@for(var i = 0; i < 3; i++){
+        <li>
+          <a href="#">
+            <div class="img_wrap">
+              <img src="https://picsum.photos/110/66" alt="">
+            </div>
+            <dl class="text_wrap">
+              <dt class="title">파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령</dt>
+              <dd class="info">
+                <span class="media">연합뉴스</span>
+                <span class="time">3분전</span>
+              </dd>
+            </dl>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <dl class="text_wrap">
+              <dt class="title">파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령</dt>
+              <dd class="info">
+                <span class="media">연합뉴스</span>
+                <span class="time">3분전</span>
+              </dd>
+            </dl>
+          </a>
+        </li>   
+      }
+      <li>
+        <a href="#">
+          <dl class="text_wrap">
+            <dt class="title">파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령</dt>
+            <dd class="info">
+              <span class="media">연합뉴스</span>
+              <span class="time">3분전</span>
+            </dd>
+          </dl>
+        </a>
+      </li> 
+    </ul>
+  </section>
+  <hr class="component_division">
+  @@include("../include/component_more_button.html", {
+    type: "button",
+    arrow: "bottom",
+    value: '비하인드 기사 더보기'
+  })
+  <hr class="component_division">
+
+  @@include("../include/footer.html")
+  @@include("../include/scroll_top.html")
+  <script>
+    setAnchor();
+  </script>
+</body>
+</html>

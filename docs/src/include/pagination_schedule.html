@@ -1,0 +1,61 @@
+@@if(type === "date"){
+  <ul class="pagination_schedule xscroll date">
+    @@for(var i = 0; i < 10; i++){
+      <li>
+        <a href="#">
+          <span class="key">목</span>
+          <span class="value">21</span>
+        </a>
+      </li>
+    }
+      <li>
+        <a href="#" class="active">
+          <span class="key">오늘</span>
+          <span class="value">28</span>
+        </a>
+      </li>  
+      @@for(var i = 0; i < 7; i++){
+        <li>
+          <a href="#">
+            <span class="key">목</span>
+            <span class="value">21</span>
+          </a>
+        </li>
+      }
+  </ul>
+}
+
+
+@@if(type === "event"){
+  <button class="view_all_events_button">
+    전체 종목<br/>보기
+  </button>
+  <ul class="pagination_schedule xscroll event">
+    <li>
+      <a href="#">
+        <span class="key">근대5종</span>
+        <span class="value modernp"></span>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="active">
+        <span class="key">서핑</span>
+        <span class="value surfing active"></span>
+      </a>
+    </li>    
+    <li>
+      <a href="#">
+        <span class="key">양궁</span>
+        <span class="value archery"></span>
+      </a>
+    </li>      
+    @@for(var i = 0; i < 5; i++){
+      <li>
+        <a href="#">
+          <span class="key">하키</span>
+          <span class="value hockey"></span>
+        </a>
+      </li>  
+    }
+  </ul>
+}

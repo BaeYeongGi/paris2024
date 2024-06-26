@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="@@enc">
+    <title>2024 파리올림픽 : 네이트뉴스</title>
+    <link rel="icon" href="@@ROOT/images/paris/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--
+      <link rel="stylesheet" type="text/css" href="http://10.22.1.116:8070/trunk/_nate/media/new_trunk/m/release/css/common.css">
+    -->
+    <link rel="stylesheet" href="http://10.22.1.116:8070/trunk/_nate/media/new_trunk/m/release/css/common.css">
+    <link rel="stylesheet" href="http://10.22.1.116:8070/trunk/_nate/media/new_trunk/m/release/css/reply.css" />
+    <link rel="stylesheet" type="text/css" href="../css/paris.css">
+    <!-- 기사뷰 DEV JS -->
+    <!--선거 css/js -->
+  </head>
+  <body style="background-color:#fff;">
+    @@include("../include/header.html", {
+      "type": "",
+      "background": "4"    
+    })
+    @@include("../include/navigation.html", {
+      "active": "n5",
+    })
+
+    <section id="contents" role="main">
+      <div class="viewHeader">
+        <h3>
+          <strong>이동국 아들 대박이, IOI 정채연 볼에 쪽 '대박만남'</strong>
+          <span><em class="from">마이데일리</em>|<em class="date">기사전송 2016-10-18 07:34</em></span>
+        </h3>
+        <a href="/view.html" class="n_view">기사보기</a>
+        <ul class="cmt_count">
+
+        </ul>
+      </div>
+      <div class="replyList_banner">
+        <iframe src="http://10.22.1.116:8070/trunk/_nate/media/new_trunk/m/release/html/util/iframe/da_320x150.html"
+          style="margin: 0;width:100%;height:150px;border:0" title="320x150사이즈 광고 배너"></iframe></div>
+      <div class="replyContent sports">
+        <!-- //Start Module Write Reply -->
+        <div class="mdu_reply_write">
+          <form>
+            <!-- DEV491 -->
+            <div class="replyWrite f_clear">
+              <a class="go_re_list" href="#"><span class="title">댓글 <em>52</em></span></a>
+              <!-- 댓글 안내 원칙:S -->
+              <button class="reply_guid_btn" aria-controls="notes"><span>댓글 운영 원칙 안내</span></button>
+              <script>
+                // 댓글 안내 원칙 > CORS이슈로 페이지 내 삽입
+                var replyBtn = document.querySelector('.reply_guid_btn');
+                var replyPOP = parent.document.querySelector('.reply-guide-popup');
+                var closeBtn = parent.document.querySelector('#notes_confirm');
+                if (replyBtn) {
+                  replyBtn.onclick = function (e) {
+                    e.preventDefault();
+                    replyPOP.setAttribute('aria-hidden', true)
+                    replyPOP.querySelector('.context').scrollTop = 0;
+                    parent.document.body.style.overflow = 'hidden'
+                  }
+                  closeBtn.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    replyPOP.setAttribute('aria-hidden', false);
+                    parent.document.body.style.overflow = 'visible';
+                  })
+                }
+              </script>
+              <!-- 댓글 안내 원칙:E -->
+              <a href="#" class="myCmtBtn">MY댓글</a>
+            </div>
+
+            <!-- UIDEV520 시사  class="sisa ent sports"-->
+
+            <div class="write_btn" id="op_write" style="display: block;">
+              <a class="colgray">댓글을 작성해 주세요.</a>
+              <span class="reply_emo">이모티콘 아이콘</span>
+            </div>
+            <fieldset class="write" id="exp_write" style="display: none;">
+              <legend>댓글쓰기</legend>
+              <div class="textArea">
+                <div class="user">
+                  <span class="name">becka****</span>
+                  <!-- <div class="snsWrite_login">
+                                  <span class="n_on"><span>네이트</span></span>
+                                  <a href="#" class="f"><span>페이스북</span></a>
+                                  <a href="#" class="t"><span>트위터</span></a>
+                              </div> -->
+                </div>
+                <div class="textAreaInner">
+                  <span class="textArea_emo"></span>
+                  <textarea maxlength="20" id="tx_reply" class="colgray"
+                    placeholder="명예훼손, 개인정보 유출, 인격권 침해, 허위사실 유포 등은 이용약관 및 관련 법률에 의해 제재를 받을 수 있습니다. 건전한 댓글문화 정착을 위해 이용에 주의를 부탁드립니다."></textarea>
+                </div>
+                <div class="textAreaFooter">
+                  <span><span class="txtCnt">0</span><span> / 20</span></span>
+                  <!--                        <span class="replyTooltip">-->
+                  <!--                            <b>이모티콘</b>으로 의견을 나누세요-->
+                  <!--                        </span>-->
+                  <a href="javascript:void(0)" class="reply_emo">
+                    <span onclick="ndrclick('RAO36')">이모티콘 아이콘</span>
+                  </a>
+                </div>
+              </div>
+              <div class="reply_emo_area">
+                <ul class="reply_emo_area_group"></ul>
+                <div class="reply_emo_area_detail"></div>
+                <div class="reply_emo_error"></div>
+              </div>
+              <div class="btn">
+                <a id="cls_wbox" href="#">취소</a>
+                <a href="#" class="ok"><span class="reg">등록</span></a>
+              </div>
+            </fieldset>
+            <script type="text/javascript">
+              //  UIDEV520
+              var writeForm = {
+                target: {
+                  banner: document.getElementById('reply_banner'),
+                  cancelBtn: document.getElementById('cls_wbox'),
+                  txtAreaWrap: document.getElementById('exp_write'),
+                  txtArea: document.getElementById('tx_reply'),
+                  txtNoti: document.getElementById('op_write'),
+                  txtEmoTriggerIcon: document.querySelector('#op_write .reply_emo'),
+                  replyEmoTriggerIcon: document.querySelector('.textAreaFooter .reply_emo'),
+                  replyEmoArea: document.querySelector('.reply_emo_area'),
+                  replyEmoAreaError: document.querySelector('.reply_emo_area .reply_emo_error'),
+                  // emoticon : document.querySelectorAll('.emoticon_select label')
+                },
+                // 클릭시 
+                show: function (e) {
+                  e.preventDefault();
+                  writeForm.target.txtNoti.style.display = 'none';
+                  writeForm.target.txtAreaWrap.style.display = 'grid';
+                  writeForm.target.replyEmoArea.classList.add('loading');
+                  const evt = new Event('click');
+                  writeForm.target.replyEmoTriggerIcon.dispatchEvent(evt);
+                  resizeIfr(parent.document.getElementById('ifr_reple'));
+                  parent.scrollTo(0, parent.document.querySelector('.news_cmt').offsetTop);
+                },
+                close: function () {
+                  writeForm.target.txtNoti.style.display = 'block';
+                  writeForm.target.txtAreaWrap.style.display = 'none';
+                  writeForm.target.txtEmoTriggerIcon.classList.remove('active');
+                  writeForm.target.replyEmoArea.classList.remove('active');
+                  writeForm.target.replyEmoTriggerIcon.classList.remove('active');
+                  writeForm.target.replyEmoTriggerIcon.dataset.isFocus = 'false';
+                  document.querySelector('.textAreaInner .textArea_emo').innerHTML = '';
+                  document.querySelector('.textAreaInner .textArea_emo').classList.remove('active');
+                  resizeIfr(parent.document.getElementById('ifr_reple'));
+                },
+                // 이모티콘 클릭 시
+                click: function (e) {
+                  var _input = e.target.previousSibling;
+                  var isChecked = _input.checked;
+                  if (isChecked) {
+                    e.preventDefault();
+                    _input.checked = false;
+                  }
+                },
+                // 댓글 이모티콘 스마일 아이콘 클릭
+                replyEmoTrigger: function (e) {
+                  e.preventDefault();
+                  const target = e.currentTarget;
+                  if (target.classList.contains('active')) {
+                    target.classList.remove('active');
+                    writeForm.target.replyEmoArea.classList.remove('active');
+                    writeForm.target.replyEmoAreaError.classList.remove('active');
+                  } else {
+                    target.classList.add('active');
+                    writeForm.target.replyEmoArea.classList.add('active');
+                    // document.querySelector('.textAreaFooter .replyTooltip').classList.add('hide');
+                    makeEmoticonList_v2(writeForm.target.replyEmoArea);
+                  }
+                  resizeIfr(parent.document.getElementById('ifr_reple'));
+                  ndrclick('RAO36');
+                },
+                // textArea validation
+                // txtAreaOnkeyup : function (e) {
+                //     const target = writeForm.target.txtArea;
+                //     document.querySelector('.textAreaFooter .txtCnt').innerText = target.value.length;
+                // }
+                txtAreaOnkeydown: function (e) {
+                  if (e.keyCode === 13) return false;
+                }
+              };
+              window.addEventListener('load', function () {
+                writeForm.target.txtNoti.onclick = writeForm.show;
+                writeForm.target.replyEmoTriggerIcon.onclick = writeForm.replyEmoTrigger;
+                // writeForm.target.txtArea.onkeyup = writeForm.txtAreaOnkeyup;
+                writeForm.target.txtArea.onkeydown = writeForm.txtAreaOnkeydown;
+                writeForm.target.cancelBtn.onclick = writeForm.close;
+                document.addEventListener('contextmenu', event => event.preventDefault());
+              });
+
+              document.querySelector('.write textarea').addEventListener('paste', (e) => {
+                e.preventDefault();
+                const paste = (e.clipboardData || window.clipboardData).getData('text');
+                e.target.value = (e.target.value + paste).substr(0, 20);
+              })
+            </script>
+          </form>
+        </div>
+        <div class="adtive">
+          <img src="//via.placeholder.com/320x100" alt="광고" style="display:block; margin:0 auto;">
+        </div>
+
+        <div class="func_view">
+          <a class="lk_p" href="#">추천순으로 보기</a>
+        </div>
+
+        <div class="reply_common_wrap">
+          <div class="reply others">
+            <dl>
+              <dt>
+                <span>
+                  <!--<span class="f">dong****</span>-->dong****</span>
+                <em>03.02 15:42</em>
+                <a href="#" class="report"><span>신고</span></a>
+              </dt>
+              <dd class="userText">
+                <a href="#">이게 대중교통이다 시민들의 불편함을 해소해주는거지 시민들의 상황에 맞춰서 승차거부따위 하는</a>
+                <a href="#" class="delete"><span>삭제</span></a>
+                <img src="http://news.nateimg.co.kr/etc/ui/images/mobile/img/ico/reply_new.png" width="7" height="7"
+                  alt="새글">
+              </dd>
+              <dd class=""><img class="emoticon"
+                  src="https://nateondownload.nate.com//acticon/pkg33_todangoffice/palette3/todangoffice_02.png"
+                  alt="팩트폭행"></dd>
+              <dd class="btn">
+                <a href="#" class="read"><span>대댓글 <em>124</em></span></a>
+                <p class="updw">
+                  <a href="#" class="read" role="button"><em>추천</em> <span>124</span></a>
+                  <a href="#" class="read" role="button"><em class="no">반대</em> <span>124</span></a>
+                </p>
+              </dd>
+            </dl>
+          </div>
+          <script>
+            document.querySelector('.reply img.emoticon').addEventListener('contextmenu', event => event
+            .preventDefault());
+          </script>
+          <div class="reply others">
+            <dl>
+              <dt>
+                <span>
+                  <!--<span class="f">dong****</span>-->dong****</span>
+                <em>03.02 15:42</em>
+                <a href="#" class="report"><span>신고</span></a>
+              </dt>
+              <dd class="userText">
+                <a href="#">이게 대중교통이다 시민들의 불편함을 해소해주는거지 시민들의 상황에 맞춰서 승차거부따위 하는</a>
+                <a href="#" class="delete"><span>삭제</span></a>
+                <img src="http://news.nateimg.co.kr/etc/ui/images/mobile/img/ico/reply_new.png" width="7" height="7"
+                  alt="새글">
+              </dd>
+              <dd class=""><img class="emoticon"
+                  src="https://nateondownload.nate.com//acticon/pkg33_todangoffice/palette3/todangoffice_02.png"
+                  alt="팩트폭행"></dd>
+              <dd class="btn">
+                <a href="#" class="read"><span>대댓글 <em>124</em></span></a>
+                <p class="updw">
+                  <a href="#" class="read" role="button"><em>추천</em> <span>124</span></a>
+                  <a href="#" class="read" role="button"><em class="no">반대</em> <span>124</span></a>
+                </p>
+              </dd>
+            </dl>
+          </div>
+          <script>
+            document.querySelector('.reply img.emoticon').addEventListener('contextmenu', event => event
+            .preventDefault());
+          </script>
+          <div class="reply others">
+            <dl>
+              <dt>
+                <span>
+                  <!--<span class="f">dong****</span>-->dong****</span>
+                <em>03.02 15:42</em>
+                <a href="#" class="report"><span>신고</span></a>
+              </dt>
+              <dd class="userText">
+                <a href="#">이게 대중교통이다 시민들의 불편함을 해소해주는거지 시민들의 상황에 맞춰서 승차거부따위 하는</a>
+                <a href="#" class="delete"><span>삭제</span></a>
+                <img src="http://news.nateimg.co.kr/etc/ui/images/mobile/img/ico/reply_new.png" width="7" height="7"
+                  alt="새글">
+              </dd>
+              <dd class=""><img class="emoticon"
+                  src="https://nateondownload.nate.com//acticon/pkg33_todangoffice/palette3/todangoffice_02.png"
+                  alt="팩트폭행"></dd>
+              <dd class="btn">
+                <a href="#" class="read"><span>대댓글 <em>124</em></span></a>
+                <p class="updw">
+                  <a href="#" class="read" role="button"><em>추천</em> <span>124</span></a>
+                  <a href="#" class="read" role="button"><em class="no">반대</em> <span>124</span></a>
+                </p>
+              </dd>
+            </dl>
+          </div>
+          <script>
+            document.querySelector('.reply img.emoticon').addEventListener('contextmenu', event => event
+            .preventDefault());
+          </script>
+          <div class="reply others">
+            <dl>
+              <dt>
+                <span>
+                  <!--<span class="f">dong****</span>-->dong****</span>
+                <em>03.02 15:42</em>
+                <a href="#" class="report"><span>신고</span></a>
+              </dt>
+              <dd class="userText">
+                <a href="#">이게 대중교통이다 시민들의 불편함을 해소해주는거지 시민들의 상황에 맞춰서 승차거부따위 하는</a>
+                <a href="#" class="delete"><span>삭제</span></a>
+                <img src="http://news.nateimg.co.kr/etc/ui/images/mobile/img/ico/reply_new.png" width="7" height="7"
+                  alt="새글">
+              </dd>
+              <dd class=""><img class="emoticon"
+                  src="https://nateondownload.nate.com//acticon/pkg33_todangoffice/palette3/todangoffice_02.png"
+                  alt="팩트폭행"></dd>
+              <dd class="btn">
+                <a href="#" class="read"><span>대댓글 <em>124</em></span></a>
+                <p class="updw">
+                  <a href="#" class="read" role="button"><em>추천</em> <span>124</span></a>
+                  <a href="#" class="read" role="button"><em class="no">반대</em> <span>124</span></a>
+                </p>
+              </dd>
+            </dl>
+          </div>
+          <script>
+            document.querySelector('.reply img.emoticon').addEventListener('contextmenu', event => event
+            .preventDefault());
+          </script>
+        </div>
+        <div class="replyBottom">
+          <div class="btn type1">
+            <div class="moreWrap">
+              <div class="btn_more"><button type="button"><span>더보기</span></button></div>
+            </div>
+          </div>
+        </div>
+        <div class="adtive">
+          <iframe name="adtive" id="adtive" src="http://10.22.1.116:8070/trunk/_nate/media/new_trunk/m/release/html/util/iframe/adv_320x100.html" topmargin="0" leftmargin="0"
+            width="100%" height="100" title="adtive" style="border:0;"></iframe>
+        </div>
+        <script type="text/javascript">
+          resizeIfr(parent.document.getElementById('ifr_reple'));
+        </script>
+      </div>
+    </section>
+    
+
+  </body>
+</html>

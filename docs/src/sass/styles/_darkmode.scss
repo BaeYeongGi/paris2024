@@ -1,0 +1,551 @@
+@media (prefers-color-scheme: dark) {
+  // common
+  .body {
+    background-color:$bg-black-1;
+  }
+  a {
+    color:$font-color-1;
+  }
+  .component_division {
+    background-color:$bg-black-2;
+  }
+  .sns_share_layer {
+    background:#262626;
+    h3, div.title {
+      color: #fafafa;
+    }
+    ul {
+      li {
+        a { 
+          color:#d7d7d7;
+        }
+      }
+    }
+  }
+
+  .component_wrap {
+    background-color:$bg-black-1;
+    &.bg_sky {
+      background-color:$bg-black-2;
+    }
+  }
+  .component_more_button {
+    background-color:$bg-black-1;
+    color:$font-color-1;
+    &.link {
+      background-color:$bg-black-3;
+      border-color:$border-color-3;
+      .arrow {
+        border-color:$font-color-1;
+      }
+    }
+    .arrow {
+      &.bottom {
+        border-color:$font-color-1;
+      }
+    }
+    &.button_border {
+      border-color:$border-color-1;
+    }
+  }
+  .nav {
+    background-color:$bg-black-3;
+    border-color:$border-color-3;
+    .nav_menu {
+      > li {
+        > a {
+          color:#fff;
+        }
+
+      }
+    }
+    .poll {
+      svg {
+        path {
+          fill:#fff;
+        }
+      }
+    }
+    &.poll {
+      + .component_wrap {
+        background-color:$bg-black-2;
+      }
+    }
+  }
+
+  .border_container {
+    background-color:$bg-black-1;
+    border-color:$border-color-3;
+    &.schedule {
+      &::after {
+        background-color:$bg-black-1;
+      }
+    }
+    &.medalist {
+      &::after {
+        background-color:$bg-black-1;
+      }
+    }
+  }
+  .footer {
+    background-color:$bg-black-2;
+    border-color:#121212;
+    .svcBtn {
+      a {
+        color:$font-color-2;
+      }
+    }
+  }
+  .main {
+    .medal_rank_table_wrap {
+      .medal_rank_table {
+        tr {
+          td {
+            &:nth-of-type(1) {
+              color:#c0a275;
+            }
+          }
+        }
+      }
+
+    }
+  }
+  .medal_rank_table_wrap {
+    border-color:$border-color-3;
+    background-color: $bg-black-4;
+    .medal_rank_table { 
+      th {
+        color:#fff;
+        border-color:$border-color-3;
+      }
+      td {
+        border-color:$border-color-3;
+        color:#fff;
+      }
+      tr {
+        td {
+          &:nth-of-type(1){
+            color:$font-color-1;
+          }
+        }
+        &.info {
+          td {
+            background-color:$bg-black-1;
+          }
+        }
+        &.active {
+          td {
+            border-color:$border-color-3;
+            background-color:$bg-black-1;
+            
+          }
+        }
+        &.link {
+          td {
+            background-color:$bg-black-1;
+            a {
+              &::after {
+                border-color:$font-color-1;
+              }
+            }
+          }
+        }
+        &:last-child {
+          td {
+            border-color:$border-color-1;
+          }
+        }
+        
+      }
+    }
+  }
+  .medalist_wrap { 
+    li {
+      &::after {
+        border-color:$border-color-1;
+      }
+      &:not(:last-child){
+        border-color:$border-color-1;
+      }
+      .time {
+        color:#fff;
+      }
+      .text {
+        dt, dd {
+          color:#fff;
+        }
+      }
+    }
+  }
+  .scroll_btns_wrap { 
+    border-color:$border-color-3;
+    > a {
+      background-color:$bg-black-3;
+      &.home {
+        border-color:$border-color-1;
+      }
+      svg {
+        path {
+          stroke: $font-color-1;
+        }
+      }
+    }
+  }
+  .top {
+    border-color:$border-color-1;
+    &.box {
+      background-color:$bg-black-1;
+      &::after {
+        background-color:$border-color-3;
+      }
+    }
+    .title {
+      color:$font-color-1;
+      svg {
+        path {
+          fill:$font-color-1;
+        }
+      }
+    }
+  }
+  .pagination_date {
+    background-color:$bg-black-1;
+    border-color:$border-color-4;
+    .date_wrap {
+      > li {
+        > a {
+          background-color:$bg-black-5;
+          span {
+            &.week {
+              color:$font-color-1;
+            }
+          }
+          &.invalid {
+            border-color:$border-color-3;
+          }
+        }
+      }
+    }
+    .swiper-slide {
+      a {
+        background-color:$bg-black-5;
+        span {
+          color:$font-color-1;
+        }
+        &.invalid {
+          span {
+            color:$font-color-4;
+          }
+        }
+      }
+    }
+    .prev, .next {
+      background-color:$bg-black-5;
+      &.invalid {
+        &::after {
+          border-color:$font-color-4;
+        }
+      }
+      &::after {
+        border-color:$font-color-1;
+      }
+      &.swiper-button-disabled {
+        &::after {
+          border-color:$font-color-4;
+        }
+      }
+    }
+  }
+  .swiper-container {
+    .swiper-pagination {
+      .swiper-pagination-bullet {
+        background-color:$border-color-3;
+      }
+    }
+  }
+  .rank_swiper {
+    .swiper-slide {
+      .news_wrap {
+        &.rank {
+          > li {
+            &:last-child {
+              border-color:$border-color-3;
+            }
+          }
+        }
+      }
+    }
+  }
+  // main 
+  .main {
+    .medalist_wrap {
+      &::before {
+        border-color:$border-color-1;
+      }
+    }
+  }
+  // news
+  .news_wrap {
+    &.list {
+      > li {
+        &:not(:last-child) {
+          border-color:$border-color-3;
+          
+        }
+        &.img_item {
+          + .img_item {
+            border-color:$border-color-1;
+          }
+        }
+        &.multi {
+          + .multi {
+            border-color:$border-color-1;
+          }
+        }
+        > a {
+          .text_wrap {
+            .title {
+              color:$font-color-1;
+            }
+            .text {
+              color:$font-color-2;
+            }
+            .info {
+              span {
+                color:$font-color-3;
+                &:not(:last-child){
+                  &::after {
+                    background-color:#838383;
+                  }
+                }
+              }
+            }
+          }
+        }
+        &.single {
+          a {
+            color:$font-color-1;
+          }
+        }
+      }
+    }
+    &.rank {
+      > li {
+        a {
+          h2, p {
+            color:$font-color-1;
+          }
+        }
+        &:not(:last-child){
+          border-color:$border-color-3;
+        }
+      }
+    }
+    &.photo {
+      li {
+        > a {
+          .title {
+            color:$font-color-1;
+          }
+        }
+      }
+    }
+  }
+  .menu {
+    border-color:$border-color-3;
+    background-color:$bg-black-3;
+    li {
+      a {
+        color:$font-color-1;
+      }
+    }
+  }
+  // photo
+  .photo_wrap {
+    > li {
+      .title {
+        color:$font-color-1;
+      }
+    }
+  }
+  // schedule
+  .schedule_pagination_wrap {
+    &::before {
+      background-color:$bg-black-1;
+    }
+    .view_all_events_button {
+      color:$font-color-1;
+      border-color:$border-color-1;
+      background-color:$bg-black-5;
+    }
+  }
+  .schedule_list {
+    border-color:$border-color-3;
+    li {
+      &.active {
+        background-color:$bg-black-4;
+      }
+      border-color:$border-color-3;
+      &::before {
+        border-color:#ccc;
+      }
+      &:has(.over){
+        .time {
+          &::before {
+            background-color:$border-color-2;
+          }
+        }
+      }
+      .time {
+        dt {
+          color:$font-color-1;
+        }
+        &::before {
+          background-color:$font-color-1;
+        }
+      }
+      .game {
+        color:$font-color-1;
+      }
+    }
+    &.main, &.view {
+      background-color:$bg-black-1;
+    }
+  }
+  .pagination_schedule {
+    background-color:$bg-black-1;
+    > li {
+      > a {
+        background-color:$bg-black-5;
+        span {
+          color:$font-color-1;
+        }
+      }
+    }
+  }
+  .schedule_wrap {
+    background-color:$bg-black-1;
+  }
+  .view_all_layer_pop {
+    background-color:$bg-black-3;
+    .title {
+      color:$font-color-1;
+      .arrow {
+        border-color:$font-color-1;
+      }
+    }
+    > ul {
+      > li {
+        > a {
+          background-color:$bg-black-2;
+        }
+      }
+    }
+  }
+  // medal 
+  .medalist_tab { 
+    background-color:$bg-black-1;
+    > li {
+      > a {
+        border-color:$border-color-1;
+        background-color:$bg-black-1;
+        color:$font-color-1;
+        &.invalid {
+          color:$font-color-4;
+        }
+      }
+    }
+  }
+  .medalist_history_members_wrap { 
+    border-color:$border-color-1;
+  }
+
+  // poll
+  .poll_contents {
+    background-color:$bg-black-1;
+    .button_info {
+      color:$font-color-2;
+    }
+    .text {
+      .title {
+        color:$font-color-1;
+      }
+      .info {
+        color:$font-color-2;
+      }
+    }
+  }
+  .poll_rank_list {
+    > li {
+      .num {
+        background-color:$border-color-2;
+      }
+    }
+  }
+  .poll_check_list {
+    background-color:$bg-black-1;
+    label {
+      > span {
+        border-color:#dadada;
+      }
+      p {
+        color:$font-color-1;
+      }
+      .gauge {
+        background-color:#666;
+      }
+    }
+  }
+
+
+  
+  .poll_rank_list {
+    > li {
+      .contents_wrap {
+        .text {
+          color:$font-color-1;
+        }
+        .value {
+          dt {
+            color:$font-color-1;
+          }
+        }
+        .gauge {
+          background-color:#666;
+          span {
+            background-color:$font-color-2;
+          }
+        }
+      }
+    }
+  }
+  .poll_buttons {
+    .view {
+      border-color:$border-color-1;
+      color:$font-color-1;
+      background-color:$bg-black-3;
+    }
+    .over {
+      background-color:$bg-black-3;
+      color:$font-color-5;
+      border-color:$border-color-1;
+    }
+  }
+  .poll_info_pop {
+    border-color:$border-color-1;
+    background-color:$bg-black-1;
+    .info_text {
+      dt {
+        color:$font-color-1;
+      }
+      dd {
+        color:$font-color-2;
+      }
+    }
+    .close_button {
+      &::before, &::after {
+        background-color:$font-color-1;
+      }
+    }
+  }
+}

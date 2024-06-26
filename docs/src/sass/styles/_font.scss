@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'S-Core-Dream-3';
+  src: url('../font/S-CoreDream-3Light.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'S-Core-Dream-5';
+  src: url('../font/S-CoreDream-5Medium.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'S-Core-Dream-6';
+  src: url('../font/S-CoreDream-6Bold.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'S-Core-Dream-7';
+  src: url('../font/S-CoreDream-7ExtraBold.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$S-Core-Dream-3: 'S-Core-Dream-3',Malgun Gothic,Dotum,Helvetica,sans-serif;
+$S-Core-Dream-5: 'S-Core-Dream-5',Malgun Gothic,Dotum,Helvetica,sans-serif;
+$S-Core-Dream-6: 'S-Core-Dream-6',Malgun Gothic,Dotum,Helvetica,sans-serif;
+$S-Core-Dream-7: 'S-Core-Dream-7',Malgun Gothic,Dotum,Helvetica,sans-serif;
+
+$Arial: 'Arial',Malgun Gothic,Dotum,Helvetica,sans-serif;

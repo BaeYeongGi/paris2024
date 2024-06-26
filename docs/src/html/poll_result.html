@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  @@include("../include/head.html", {
+    "type": "",
+    "theme": "#304A97"
+  })
+</head>
+<body class="body">
+  @@include("../include/header.html", {
+    "type": "poll",
+    "background": "5"    
+  })
+  @@include("../include/navigation.html", {
+    "active": "n6",
+  })
+  <section class="component_wrap">
+    <div class="border_container">
+      <div class="poll_contents type1">
+        <button class="button_info">안내
+          @@include("../svg/icon_info.html")
+        </button>
+        <div class="text">
+          <span class="state over" aria-label="종료"></span>
+          <dl>
+            <dt class="title">최대 4줄</dt>
+            <dd class="info">
+              <span>9.13.수-9.25.월</span>
+              <span>999,999명</span>
+            </dd>
+          </dl>
+        </div>
+        
+      </div>
+      <ul class="poll_rank_list">
+        <li>
+          <span class="num">1</span>
+          <div class="contents_wrap">
+            <p class="text">두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄</p>
+            <dl class="value">
+              <dt>38%</dt>
+              <dd>999,999 명</dd>
+            </dl>
+            <div class="gauge"><span style="width:38%;"></span></div>
+          </div>
+
+        </li>
+        <li>
+          <span class="num">2</span>
+          <div class="contents_wrap">
+            <p class="text">한 줄</p>
+            <dl class="value">
+              <dt>28%</dt>
+              <dd>99,999 명</dd>
+            </dl>
+            <div class="gauge"><span style="width:28%;"></span></div>
+          </div>
+
+        </li>        
+        <li>
+          <span class="num">3</span>
+          <div class="contents_wrap">
+            <p class="text">한 줄</p>
+            <dl class="value">
+              <dt>18%</dt>
+              <dd>9,999 명</dd>
+            </dl>
+            <div class="gauge"><span style="width:18%;"></span></div>
+          </div>
+
+        </li>  
+        <li>
+          <span class="num">4</span>
+          <div class="contents_wrap">
+            <p class="text">한 줄</p>
+            <dl class="value">
+              <dt>5%</dt>
+              <dd>9,999 명</dd>
+            </dl>
+            <div class="gauge"><span style="width:5%;"></span></div>
+          </div>
+  
+        </li>                    
+      </ul>
+      <div class="poll_buttons">
+        <a href="#" class="view">투표보기</a>
+      </div>
+      <div class="poll_buttons">
+        <button class="over" disabled>투표종료</button>
+      </div>      
+    </div>
+    @@include("../include/poll_list.html")
+  </section>
+
+  @@include("reply_no.html")
+ 
+  <hr class="component_division">
+  <section class="ad_wrap">
+    <iframe src="../iframe/ad320x150.html" title="광고영역" frameborder="0"></iframe>
+  </section>  
+  <hr class="component_division">
+
+
+  @@include("../include/footer.html")
+  @@include("../include/scroll_top.html")
+  <script>
+
+    const pollInfoContents = `
+    <dl class="info_text">
+      <dt>백분율 표기안내</dt>
+      <dd>각 보기에 대한 비율(%)은 소수점자리의 수는
+      버림하여, 보기의 모든 합이 100% 미만이
+      될 수 있습니다.</dd>
+    </dl>
+    <button class="close_button" aria-label="백분율 표기안내창 닫기"></button>
+  `;
+
+    viewPollInfo(pollInfoContents);
+    setPollBg();
+    setHorizontalScroll();
+  </script>
+</body>
+</html>

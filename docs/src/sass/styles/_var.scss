@@ -1,0 +1,41 @@
+
+// 멀티줄임말
+@mixin ell($n){
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  -webkit-line-clamp: $n;
+}
+
+// 기본 값
+$color-black-1: #000;
+$color-white-1: #fff;
+$color-gray-1: #838383;
+$font-weight-bold: 700;
+$font-weight-normal: 400;
+$bg-white: #fff;
+$bg-black: #000;
+$point: #278D8F;
+$shadow: 0px 0px 4px 0 rgba(0,0,0,0.25);
+$text-shadow: 0 0 4px rgba(0,0,0,0.25);
+$target: #F6F6F6;
+$ROOT: '../../../../../images';
+
+// 다크모드 색상
+$bg-black-1: #262626;
+$bg-black-2: #121212;
+$bg-black-3: #2f2f2f;
+$bg-black-4: #393939;
+$bg-black-5: #464646;
+
+$font-color-1: #ffffff;
+$font-color-2: #d7d7d7;
+$font-color-3: #8e8e8e;
+$font-color-4: #777;
+$font-color-5: #464646;
+$border-color-1: #393939;
+$border-color-2: #666;
+$border-color-3: #464646;
+$border-color-4: #e6e5e5;

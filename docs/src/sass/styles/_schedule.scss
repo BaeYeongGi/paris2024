@@ -1,0 +1,405 @@
+.schedule_wrap {
+  padding:16px 20px 14px 20px;
+}
+.schedule_pagination_wrap {
+  position:relative;
+  &::before {
+    content:'';
+    display:block;
+    width:92px;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:#F3F6FA;
+    z-index:1;
+  }
+  .view_all_events_button {
+    position:absolute;
+    top:15px;
+    left:20px;
+    z-index:1;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    background-color:#fff;
+    color:#000;
+    border:1px solid #838383; 
+    font-size:11px;
+    font-weight:600;
+    letter-spacing: -1px;
+    &.active {
+      background-color: $point;
+      color:#fff;
+      border-color:$point;
+    }
+    // &::before, &::after {
+    //   content:'';
+    //   display:block;
+    //   height:100%;
+    //   background-color:#F3F6FA;
+    //   position:absolute;
+    //   top:0;
+    // }
+    // &::after {
+    //   width:8px;
+    //   left:calc(100% + 1px);
+    // }
+    // &::before {
+    //   width:20px;
+    //   right:calc(100% + 1px);
+    // }
+  }
+  .pagination_schedule {
+    padding-left:92px;
+  }
+}
+.pagination_schedule {
+  width:100%;
+  height:94px;
+  background-color:#F3F6FA;
+  display:flex;
+  align-items: center;
+  padding:0 20px 0 20px;
+  overflow-x:auto;
+  box-sizing: border-box;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  > li {
+    &:not(:last-child){
+      margin-right:8px;
+    }
+    > a { 
+      @include pagingDateBoxStyle;
+      &.current, &.active {
+        background-color:$point;
+        span {
+          color:#fff;
+        }
+      }
+      span {
+        position:absolute;
+        color:#000;
+        &.key {
+          @include pagingDateKeyStyle;
+        }
+
+      }
+    }
+  }
+  &.date {
+    > li {
+      > a {
+        span {
+          &.value {
+            @include pagingDateValueStyle;
+          }
+        }
+      }
+    }
+  }
+  &.event {
+    position:relative;
+    > li {
+      &.view_all_events_button {
+        position:absolute;
+        top:15px;
+        left:20px;
+        z-index:1;
+      }
+      > a {
+        span {
+          &.value {
+            width:34px;
+            height:34px;
+            background-size:34px;
+            background-repeat: no-repeat;
+            position:absolute;
+            right:0;
+            bottom:0;
+          }
+        }
+      }
+    }
+  }
+}
+.schedule_list {
+  border-top:1px solid #edededed;
+  margin:0 0 16px 0;
+  &.main, &.view {
+    max-height: 320px;
+    overflow-y:auto;
+    background-color:#fff;
+    border-top:0;
+    border-radius:0 0 8px 8px;
+    padding:0 15px;
+    position:relative;
+  }
+  li {
+    > a {
+      display:block;
+    }
+    padding:16px 0;
+    border-bottom:1px solid #ededed;
+    position:relative;
+    min-height:102px;
+    box-sizing:border-box;
+    &.active {
+      background-color:#F3F6FA;
+    }
+    &:has(.gaming){
+      .time {
+        &::before {
+          background-color:#FF0017;
+        }
+      }
+    }
+    &:has(.over){
+      .time {
+        &::before {
+          background-color:#bbb;
+        }
+      }
+    }
+    &.anchor {
+
+    }
+    .time {
+      position:relative;
+      padding-left:27px;
+      display:flex;
+      align-items: center;
+      &::before {
+        content:'';
+        display:block;
+        width:9px;
+        height:9px;
+        border-radius:9px;
+        position:absolute;
+        background-color:#000;
+        top:5px;
+        left:10px;
+        z-index:1;
+      }
+      dt {
+        font-family: $Arial;
+        font-size:15px;
+        font-weight:700;
+        color:#000;
+        margin-right:14px;
+      }
+      &.over, &.gaming {
+        dd {
+          width:36px;
+          height:18px;
+          background-repeat: no-repeat;
+          background-size:contain
+        }
+      }
+      &.over {
+        dd {
+          background-image:url($icon-game-over);
+        }
+      }
+      &.gaming {
+        dd {
+          background-image:url($icon-game-playing);
+        }
+      }
+    }
+    .game {
+      display:flex;
+      position:relative;
+      dt {
+        position:absolute;
+        // width:42px;
+        // height:42px;
+        width:34px;
+        height:34px;
+        background-size:contain;
+        top:7px;
+        left:27px;
+      }
+      .info {
+        margin:10px 0 0 0;
+        padding-left:82px;
+        // min-height:34px;
+        > div {
+          font-size:15px;
+          line-height:24px;
+          display:flex;
+          align-items:center;
+          letter-spacing: -1px;
+          strong {
+            font-weight:700;
+            margin:0 4px 0 0;
+          }
+          &.medal {
+            display:flex;
+            align-items: center;
+            // margin-right:8px;
+            // .text {
+            //   + .gold, 
+            //   + .silver, 
+            //   + .bronze {
+            //     margin-left:4px;
+            //     margin-right:0;
+            //   }
+            // }
+            span {
+              &:not(:first-child){
+                margin-left:12px;
+              }
+            }
+            .gold, .silver, .bronze {
+              display:block;
+              width:16px;
+              height:16px;
+              background-size:16px;
+              background-repeat: no-repeat;
+              margin-right:4px;
+            } 
+            .gold {
+              background-image:url($icon-text-gold);
+            }
+            .silver {
+              background-image:url($icon-text-silver);
+            }
+            .bronze {
+              background-image:url($icon-text-bronze);
+            }   
+          }
+                 
+        }
+      }
+    }
+    &::before {
+      content:'';
+      display:block;
+      height:100%;
+      position:absolute;
+      left:13px;
+      top:22px;
+      border:1px dashed #ccc;
+      z-index:1;
+    }
+    &:last-child {
+      &::before {
+        display:none;
+      }
+    }
+  }
+}
+
+.dimmed_animation {
+  opacity:0;
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  &.active {
+    opacity:1;
+    .view_all_layer_pop {
+      bottom:0;
+    }
+  }
+  display:block;
+  width:100%;
+  height:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  background-color:rgba(0,0,0,0.7);
+  z-index:1;
+}
+.view_all_layer_pop {
+  position:fixed;
+  width:100%;
+  background-color:#F3F6FA;
+  bottom:-100%;
+  left:0;
+  transition-duration:0.3s;
+  transition-property: bottom;
+  border-radius:12px 12px 0 0;
+  padding:0 45px 12px 45px;
+  box-sizing:border-box;
+  .title {
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+    font-size:12px;
+    letter-spacing: -1px;
+    color:#000;
+    font-weight:600;
+    padding:16px 0;
+    margin:0 auto;
+    &::before {
+      content:'';
+      display:block;
+      width:36px;
+      height:10px;
+      background-size:36px 10px;
+      background-repeat: no-repeat;
+      background-image:url($icon-schedule-layerpopup-title);
+      margin-right:5px;
+      transform:translateY(2px);
+    }
+    .arrow {
+      display:block;
+      width:6px;
+      height:6px;
+      border-right:2px solid #000;
+      border-bottom:2px solid #000;
+      transform:translateY(-1px) rotate(45deg);
+      margin-left:6px;
+    }
+  }
+  > ul {
+    display:flex;
+    flex-wrap: wrap;
+    > li {
+      margin-bottom:8px;
+      &:not(:nth-of-type(3n)){
+        margin-right:8px;
+      }
+      width:calc(33.333% - 5.333px);
+      > a {
+        display:block;
+        width:100%;
+        line-height:34px;
+        text-align:center;
+        border-radius:4px;
+        font-size:12px;
+        font-weight:800;
+        letter-spacing: -1px;
+        background-color:#fff;
+        &.active {
+          background-color:$point;
+          color:#fff;
+        }
+      }
+    }
+  }
+}
+
+@media (orientation: landscape) {
+  .view_all_layer_pop {
+    width:100%;
+    height:270px;
+    ul {
+      > li {
+        width:calc(14.2857% - 6.857px);
+        &:not(:nth-of-type(3n)){
+          margin-right:0;
+        }
+        &:not(:nth-of-type(7n)){
+          margin-right:8px;
+        }
+      }
+    }
+  }
+}
