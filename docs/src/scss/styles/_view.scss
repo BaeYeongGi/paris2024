@@ -147,8 +147,16 @@ div.news_view {
     }
     div.view_img {
       text-align: center;
-      margin: 0 -20px 15px -20px;
+      margin: 30px -20px 15px -20px;
       width:calc(100% + 40px);
+      img {
+        + img {
+          margin-top:20px;
+        }
+      }
+      p {
+        line-height:1.56em;
+      }
       a {
         position: relative;
         display: inline-block;
@@ -172,8 +180,8 @@ div.news_view {
         width: auto;
         height: auto;
         padding: 10px 20px 15px;
-        font-size: 0.934em;
-        line-height: 1.29em;
+        font-size: 15px;
+        line-height: 22px;
         color: #777;
         text-align: left;
         background: 0 0;
@@ -351,6 +359,110 @@ div.news_view {
       width:100%;
       img {
         width:100%;
+      }
+    }
+  }
+  #ad_innerView {
+    margin:50px 0;
+  }
+  .view_summary {
+    margin:20px 0 0 0;
+    position:relative;
+    padding-left:14px;
+    li {
+      font-weight: 600;
+    }
+    &::before {
+      position:absolute;
+      top:0;
+      left:0;
+      content:'';
+      display:block;
+      width:2px;
+      height:100%;
+      background-color:#222;
+    }
+  }
+  .view_editor {
+    margin:50px 0 50px 0;
+    dt {
+      font-size: 16px;
+      font-weight:600;
+      letter-spacing:-0.5px;
+      color:#222;
+
+    }
+    dd {
+      font-size:13px;
+      color:#838383;
+      letter-spacing:-0.3px;
+      font-weight:400;
+
+    }
+  }
+  .view_main_news_title {
+    margin:0 0 20px 0;
+    dt {
+      font-size:17px;
+      color:#222;
+      font-weight:600;
+      letter-spacing: -0.5px;
+    }
+    dd {
+      font-size:13px;
+      color:#838383;
+      font-weight:400;
+      letter-spacing: -0.3px;
+    }
+  }
+  .view_main_news_list {
+    margin:0 0 30px 0;
+    li {
+      position:relative;
+      padding-left:10px;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      &::before {
+        content:'';
+        display:block;
+        width:4px;
+        height:4px;
+        border-radius:4px;
+        background-color:#222;
+        position:absolute;
+        top:13px;
+        left:0;
+      }
+      a {
+        font-size:16px;
+        font-weight:400;
+        letter-spacing: -0.5px;
+        color:#222;
+      }
+    }
+  }
+  .view_recommend_list {
+    position:relative;
+    padding-left:14px;
+    margin:0 0 40px 0;
+    &::before {
+      position:absolute;
+      top:0;
+      left:0;
+      content:'';
+      display:block;
+      width:2px;
+      height:100%;
+      background-color:#222;
+    }
+    li {
+      line-height:22px;
+      a { 
+        font-size:16px;
+        font-weight:400;
+        letter-spacing: -0.5px;
+        color:#222;
       }
     }
   }

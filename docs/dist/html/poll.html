@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  
+
+
+  <meta charset="euc-kr" />
+  <title>2024 파리올림픽 : 네이트뉴스</title>
+  <link rel="icon" href="@@ROOT/images/paris/favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, width=device-width" />
+  <meta property="description" content="파리 올림픽에 대한 모든 정보를 한눈에 쉽게 네이트에서 확인하세요!" />
+  <meta property="og:title" content="2024 파리 올림픽" />
+  <meta property="og:url" content="https://baeyeonggi.github.io/paris/docs/dist/home.html" />
+  <meta property="og:description" content="파리 올림픽에 대한 모든 정보를 한눈에 쉽게 네이트에서 확인하세요!" />
+  <meta name="theme-color" content="#304A97">
+  <!--CSS -->
+  <link rel="stylesheet" type="text/css" href="../css/paris.css">
+  <!-- JS -->
+  <script type="text/javascript" src="../js/swiper-bundle.min.js"></script>
+
+  <script type="text/javascript" src="../js/paris.js"></script>
+
+
+</head>
+<body class="body">
+  <header class="header type5 poll" class="header type5" >
+  <div class="header_top_area">
+    <ul class="header_nav">
+      <li><a href="#" class="logo" aria-label="네이트"></a></li>
+      <li><a href="#" class="sports">스포츠</a></li>
+      <li><a href="#">뉴스</a></li>
+      <li><a href="#">연예</a></li>
+    </ul>
+    <a href="#" class="search" aria-label="검색 페이지로 이동"></a>
+  </div>
+  <div class="header_bottom_area">
+    <ul class="title_wrap">
+      <li>
+        <a href="home.html" class="title" aria-label="봉쥬르 paris">
+          
+        </a>
+      </li>
+      <li>
+        <button class="share gnb_share" aria-label="페이지 공유하기"></button>        
+      </li>
+    </ul>
+    <a href="#" class="medal_wrap">
+      <p class="rank"><span>종합</span> 12위</p>
+      <ul class="medal_count">
+        <li class="gold" aria-label="금메달 획득 수">4</li>
+        <li class="silver" aria-label="은메달 획득 수">6</li>
+        <li class="bronze" aria-label="동메달 획득 수">10</li>
+      </ul>
+    </a>
+  </div>
+</header>
+<div id="sns_share_pop" style="display: none;">
+  <div class="sns_share_layer">
+    <button type="button" class="btnClosePopup">닫기</button>
+    <div class="title">공유하기</div>
+    <ul class="sns_btns">
+      <li><a class="no" title="새창으로 이동" id="sns-no" href="javascript:;" onclick="checkMobileAgent('네이트온 쪽지')?shareSNS('no'):false; ndrclick('RAM76'); return false;">네이트온</a></li>
+      <li><a class="kt" title="새창으로 이동" id="sns-kt" href="javascript:;" onclick="checkMobileAgent('카카오톡')?shareSNS('kt'):false; ndrclick('RAM002'); return false;">카카오톡</a></li>
+      <li><a class="fb" title="새창으로 이동" id="sns-fb" href="javascript:;" onclick="shareSNS('fb'); ndrclick('RAM77'); return false;">페이스북</a></li>
+      <li><a class="tw" title="새창으로 이동" id="sns-tw" href="javascript:;" onclick="shareSNS('tw'); ndrclick('RAM78'); return false;">엑스</a></li>
+      <li><a class="ks" title="새창으로 이동" id="sns-ks" href="javascript:;" onclick="checkMobileAgent('카카오스토리')?shareSNS('ks'):false; ndrclick('RAM003'); return false;">카카오스토리</a></li>
+      <li><a class="bd" title="새창으로 이동" id="sns-bd" href="javascript:;" onclick="checkMobileAgent('네이버 밴드')?shareSNS('bd'):false; ndrclick('RAM004'); return false;">밴드</a></li>
+      <li><a class="li" title="새창으로 이동" id="sns-li" href="javascript:;" onclick="checkMobileAgent('네이버 라인')?shareSNS('li'):false; ndrclick('RAM005'); return false;">라인</a></li>
+      <li><a class="lk" title="새창으로 이동" id="sns-url" href="javascript:;" onclick="shareSNS('lk'); ndrclick('RAM006'); return false;">URL 복사</a></li>
+    </ul>	
+  </div>
+  <div class="modal_backdrop"></div>
+</div>
+
+
+
+<script>
+  setIOS();
+</script>
+  <nav class="nav">
+  <ul class="nav_menu">
+    <li>
+      <a href="home.html" >홈</a>
+    </li>
+    <li>
+      <a href="news.html" >뉴스</a>
+    </li>
+    <li>
+      <a href="photo.html" >포토</a>
+    </li>
+    <li>
+      <a href="dateschedule.html" >일정/결과</a>
+    </li>
+    <li>
+      <a href="medal.html" >메달</a>
+    </li>
+  </ul>
+  <a href="poll.html" class="active poll" class="poll" aria-label="poll" >
+    <svg width="29" height="14" viewBox="0 0 29 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.41524 11.82C5.44024 11.82 4.56924 11.534 3.86724 11.066V13.9H0.968242V3.37H3.86724V3.864C4.56924 3.383 5.44024 3.11 6.41524 3.11C8.17024 3.11 10.3282 4.111 10.3282 7.465C10.3282 10.819 8.17024 11.82 6.41524 11.82ZM5.64824 9.285C6.76624 9.285 7.42924 8.713 7.42924 7.465C7.42924 6.23 6.76624 5.645 5.64824 5.645C4.67324 5.645 3.90624 6.139 3.86724 7.374V7.465C3.86724 8.778 4.64724 9.285 5.64824 9.285ZM17.5598 7.595C17.5598 6.451 16.8708 5.658 15.5968 5.658C14.3228 5.658 13.6338 6.451 13.6338 7.595C13.6338 8.739 14.3228 9.532 15.5968 9.532C16.8708 9.532 17.5598 8.739 17.5598 7.595ZM20.3418 7.595C20.3418 9.961 18.9898 12.08 15.5968 12.08C12.2038 12.08 10.8518 9.961 10.8518 7.595C10.8518 5.229 12.2038 3.11 15.5968 3.11C18.9898 3.11 20.3418 5.229 20.3418 7.595ZM24.1447 11.82H21.2457V0.51H24.1447V11.82ZM28.3469 11.82H25.4479V0.51H28.3469V11.82Z" fill="black"/>
+  </svg>
+  
+  </a>
+</nav>
+
+  <section class="component_wrap">
+    <div class="border_container">
+      <div class="poll_contents type1">
+
+        <div class="text">
+          <span class="state going" aria-label="진행중"></span>
+          <dl>
+            <dt class="title"> 최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄최대 4줄</dt>
+            <dd class="info">
+              <span>9.13.수-9.25.월</span>
+              <span>999,999명</span>
+            </dd>
+          </dl>
+        </div>
+
+      </div>
+      <ul class="poll_check_list">
+        <li>
+          <input type="radio" name="poll" id="poll1">
+          <label for="poll1">
+            <span></span>
+            <p>두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄</p>
+            <div class="gauge"><span></span></div>
+          </label>
+ 
+
+        </li>
+        <li>
+          <input type="radio" name="poll" id="poll2">
+          <label for="poll2">
+            <span></span>
+            <p>
+            두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄
+            </p>
+            <div class="gauge"><span></span></div>
+          </label>
+
+        </li>     
+        <li>
+          <input type="radio" name="poll" id="poll3">
+          <label for="poll3">
+            <span></span>
+            <p>한 줄</p>
+            <div class="gauge"><span></span></div>
+          </label>
+        </li>                
+        <li>
+          <input type="radio" name="poll" id="poll4">
+          <label for="poll4">
+              <span></span>
+              <p>
+              두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄두 줄
+              </p> 
+              <div class="gauge"><span></span></div>
+          </label>
+  
+        </li>                      
+      </ul>
+      <div class="poll_buttons">
+        <button class="submit">투표하기</button>
+        <a href="poll_result.html" class="result">결과보기</a>
+      </div>
+    </div>
+    <ul class="poll_wrap xscroll"> 
+  <li>
+    <a href="#" class="type1 going">
+      <dl class="text">
+        <dt>대한민국 국가대표팀 예상 진출 성적은? 대한민국 국가대표팀 예상 진출 성적은? 대한민국 국가대표팀 예상 진출 성적은?</dt>
+        <dd>9.13.<span>수</span> - 9.25.<span>월</span></dd>
+      </dl>
+    </a>
+  </li>         
+  
+    <li>
+      <a href="#" class="type2 over">
+        <dl class="text">
+          <dt>대한민국 국가대표팀 예상 진출 성적은? 대한민국 국가대표팀 예상 진출 성적은? 대한민국 국가대표팀 예상 진출 성적은?</dt>
+          <dd>9.13.<span>수</span> - 9.25.<span>월</span></dd>
+        </dl>
+      </a>
+    </li>          
+  
+    <li>
+      <a href="#" class="type3 over">
+        <dl class="text">
+          <dt>대한민국 국가대표팀 예상 진출 성적은? 대한민국 국가대표팀 예상 진출 성적은? 대한민국 국가대표팀 예상 진출 성적은?</dt>
+          <dd>9.13.<span>수</span> - 9.25.<span>월</span></dd>
+        </dl>
+      </a>
+    </li>          
+  
+    <li>
+      <a href="#" class="type4 over">
+        <dl class="text">
+          <dt>대한민국 국가대표팀 예상 진출 성적은? 대한민국 국가대표팀 예상 진출 성적은? 대한민국 국가대표팀 예상 진출 성적은?</dt>
+          <dd>9.13.<span>수</span> - 9.25.<span>월</span></dd>
+        </dl>
+      </a>
+    </li>          
+  
+    <li>
+      <a href="#" class="type5 over">
+        <dl class="text">
+          <dt>대한민국 국가대표팀 예상 진출 성적은? 대한민국 국가대표팀 예상 진출 성적은? 대한민국 국가대표팀 예상 진출 성적은?</dt>
+          <dd>9.13.<span>수</span> - 9.25.<span>월</span></dd>
+        </dl>
+      </a>
+    </li>          
+  
+    <li>
+      <a href="#" class="type6 over">
+        <dl class="text">
+          <dt>대한민국 국가대표팀 예상 진출 성적은? 대한민국 국가대표팀 예상 진출 성적은? 대한민국 국가대표팀 예상 진출 성적은?</dt>
+          <dd>9.13.<span>수</span> - 9.25.<span>월</span></dd>
+        </dl>
+      </a>
+    </li>          
+  
+    <li>
+      <a href="#" class="type7 over">
+        <dl class="text">
+          <dt>대한민국 국가대표팀 예상 진출 성적은? 대한민국 국가대표팀 예상 진출 성적은? 대한민국 국가대표팀 예상 진출 성적은?</dt>
+          <dd>9.13.<span>수</span> - 9.25.<span>월</span></dd>
+        </dl>
+      </a>
+    </li>          
+  
+  <li>
+    <a href="#" class="type8 over active">
+      <dl class="text">
+        <dt>대한민국 국가대표팀 예상 진출 성적은? 대한민국 국가대표팀 예상 진출 성적은? 대한민국 국가대표팀 예상 진출 성적은?</dt>
+        <dd>9.13.<span>수</span> - 9.25.<span>월</span></dd>
+      </dl>
+    </a>
+  </li>    
+  <li>
+    <a href="#" class="comingsoon" aria-label="comingsoon"></a>
+  </li>  
+</ul>
+  </section>
+
+  
+<div id="areaComment">
+  <div class="reply_wrap">
+    <div class="replyContent">
+      <div class="replyWrite f_clear">
+        <a class="go_re_list" href="#">
+          <span class="title">댓글 <em id="totalcntComment">28</em></span>
+        </a>
+        <button class="reply_guid_btn" aria-controls="notes"><span>댓글 운영 원칙 안내</span></button>
+      </div>
+      <!-- AOS4.4 이슈로 인한 수정:S -->
+      <div class="write_btn" id="op_write" style="display: block;">
+          <a class="colgray">댓글을 작성해 주세요.</a>
+      </div>
+      
+      <form name="frmCmt" id="frmCmt" method="POST" action="http://m.comm.news.nate.com/comment/commonComment/writeAction">
+        <input type="hidden" name="__natkn" value="" id="__natkn">
+        <input type="hidden" name="r_url" value="http://m.comm.news.nate.com/poll/result?poll_sq=22671&amp;section=ent&amp;mid=e0008">
+        <input type="hidden" name="ctgr_cd" value="100"> <input type="hidden" name="ctgr_sq" value="22671">
+        <input type="hidden" name="mid" value="">
+        <input type="hidden" name="sndData" value="0">
+        <fieldset class="write" id="exp_write" style="display: none;">
+          <legend>댓글쓰기</legend>
+          <div class="textArea">
+            <!-- AOS4.4 이슈로 인한 수정:S -->
+            <textarea title="댓글 입력" name="cmt_content" id="cmt_content" class="colgray" placeholder="명예훼손, 개인정보 유출, 인격권 침해, 허위사실 유포 등은 이용약관 및 관련 법률에 의해 제재를 받을 수 있습니다. 건전한 댓글문화 정착을 위해 이용에 주의를 부탁드립니다."></textarea>						
+          </div>
+          <div class="btn">
+                      <a id="cls_wbox" href="javascript:void()">취소</a>
+                      <a href="#" class="ok"><span class="reg">등록</span></a>
+                  </div>
+          <script type="text/javascript">					
+                    var writeForm = {
+                        target : {
+                            cancelBtn : document.getElementById('cls_wbox'),
+                            txtAreaWrap : document.getElementById('exp_write'),
+                            txtArea : document.getElementById('cmt_content'),
+                            txtNoti : document.getElementById('op_write'),
+                            emoticon : document.querySelectorAll('.emoticon_select label')
+                        },
+                        // 클릭시 
+                        show : function(e){
+                            e.preventDefault();
+                            writeForm.target.txtNoti.style.display = 'none';
+                            writeForm.target.txtAreaWrap.style.display = 'block';
+                            writeForm.target.txtArea.focus();
+                        },
+                        close : function(){
+                            writeForm.target.txtNoti.style.display = 'block';
+                            writeForm.target.txtAreaWrap.style.display = 'none';
+                        },
+                        // 이모티콘 클릭 시
+                        click : function(e){
+                            var _input = e.target.previousSibling;
+                            var isChecked = _input.checked;
+                            if(isChecked){
+                                e.preventDefault();       
+                                _input.checked = false;
+                            }
+                        }
+                    };
+                    window.addEventListener('load', function(){
+                        writeForm.target.txtNoti.onclick = writeForm.show;
+                        writeForm.target.cancelBtn.onclick = writeForm.close;
+                        for(var i=0;i<writeForm.target.emoticon.length;i++){
+                            writeForm.target.emoticon[i].onclick = writeForm.click;
+                        }
+                    });
+          </script>
+        </fieldset>
+      </form>
+      <!-- AOS4.4 이슈로 인한 수정:E-->
+      <!-- //댓글쓰기 -->
+      <!-- 댓글리스트 -->
+      <div class="reply_best_wrap">
+        <div class="reply">
+          <dl>
+            <dt>
+              <span class="bestReple">베플</span>
+              <span><a href="http://m.comm.news.nate.com/My/Comment?uid=10046970726" class="n">jeny****</a></span>
+              <em>08.02 11:55</em>
+            </dt>
+            <dd class="userText">[inc/module]이모티콘없는댓글프레임.html / 당연히 김우빈 수지라고 생각했는데 뭐지?<br> </dd>
+            <dd class="btn">
+              <p class="updw">
+                <a href="#" class="read"><em>추천</em><span>117</span></a>
+                <a href="#" class="read"><em class="no">반대</em><span>52</span></a>
+              </p>
+            </dd>
+          </dl>
+        </div>
+        <div class="reply">
+          <dl>
+            <dt>
+              <span class="bestReple">베플</span>
+              <span><a href="http://m.comm.news.nate.com/My/Comment?uid=10046970726" class="n">jeny****</a></span>
+              <em>08.02 11:55</em>
+            </dt>
+            <dd class="userText">당연히 김우빈 수지라고 생각했는데 뭐지?<br> </dd>
+            <dd class="btn">
+              <p class="updw">
+                <a href="#" class="read"><em>추천</em><span>117</span></a>
+                <a href="#" class="read"><em class="no">반대</em><span>52</span></a>
+              </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="reply_common_wrap" id="reply_common_wrap">
+        <div class="reply others">
+          <dl>
+            <dt>
+              <span><a href="http://m.comm.news.nate.com/My/Comment?uid=10056863736" class="n">김유진</a></span>
+              <em>08.03 08:45</em>
+            </dt>
+            <dd class="userText">수지&amp;우빈</dd>
+            <dd class="btn">
+              <p class="updw">
+                <a href="#" class="read"><em>추천</em><span>5</span></a>
+                <a href="#" class="read"><em class="no">반대</em><span>4</span></a>
+              </p>
+            </dd>
+          </dl>
+        </div>				
+        <div class="reply others">
+          <dl>
+            <dt>
+              <span><a href="http://m.comm.news.nate.com/My/Comment?uid=10056863736" class="n">김유진</a></span>
+              <em>08.03 08:45</em>
+            </dt>
+            <dd class="userText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur debitis maxime, dolor fugit ipsa esse officiis vel distinctio quasi alias, provident iusto at recusandae expedita repellat dolores ad. Libero, animi.</dd>
+            <dd class="btn">
+              <p class="updw">
+                <a href="#" class="read"><em>추천</em><span>5</span></a>
+                <a href="#" class="read"><em class="no">반대</em><span>4</span></a>
+              </p>
+            </dd>
+          </dl>
+        </div>			
+      </div>
+      <div class="replyBottom" id="cmtlistmore">
+        <div class="btn type1 f_clear">
+          <div class="moreWrap">
+            <div class="btn_more"><button type="button" onclick="getmoreCommonComment();olapclick('NEWRE17');"><span>더보기</span></button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+  <hr class="component_division">
+  <section class="ad_wrap">
+    <iframe src="../iframe/ad320x150.html" title="광고영역" frameborder="0"></iframe>
+  </section>  
+  <hr class="component_division">
+  <script>
+  createSnsLayout();
+</script>
+<footer id="footer" role="contentinfo">
+  <div class="footer">
+      <div class="svcBtn">
+        <a href="#">네이트홈</a>
+        <a href="#"><span id="loginbtnmsg">로그아웃</span></a>
+        <a href="#">PC버전</a>
+        <a href="#">전체서비스</a>
+      </div> 
+      <ul class="sitemap">
+        <li><a href="#">기사배열기본방침(책임:김경옥)</a></li>
+        <li><span>청소년보호책임:조유형</span></li>
+        <li><a href="#">뉴스 전체서비스</a></li>
+      </ul>
+      <div class="copyright">
+        <span>&copy; SK Communications</span>
+        <a class="cscenter" href="#">고객센터</a></div>
+  </div>
+</footer>
+  <div class="scroll_btns_wrap">
+  <a href="home.html" class="home">
+    <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M1 6L8 1L15 6" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M3 5V12H13V5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  
+  </a>
+  <a href="#" class="top">
+    <svg width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M1 9L7 3L13 9" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M7 3V16" stroke="black" stroke-linecap="round"/>
+  <path d="M1.5 0.5H12.5" stroke="black" stroke-linecap="round"/>
+  </svg>
+  
+  </a>
+</div>
+  <script>
+    setPollBg();
+    setHorizontalScroll();
+  </script>
+</body>
+</html>

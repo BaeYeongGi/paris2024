@@ -548,4 +548,17 @@
       }
     }
   }
+  div.news_view {
+    .view_summary, .view_recommend_list {
+      &::before {
+        background-color:#d7d7d7;
+      }
+    }
+    .view_editor, .view_main_news_title  {
+      dt {
+        color:var(--font-color-2);
+      }
+    }  
+  }
 }
+

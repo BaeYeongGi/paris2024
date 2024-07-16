@@ -33,12 +33,5 @@
 </header>
 @@include("share.html")
 <script>
-  document.querySelector('.gnb_share').addEventListener('click', function(){
-    const dimmed = document.querySelector('.modal_backdrop');
-    const layer = document.querySelector('#sns_share_pop');
-    layer.classList.add('active');
-    dimmed.classList.add('active');
-    layer.style.display = 'block';
-  })
   setIOS();
 </script>

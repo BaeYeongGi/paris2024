@@ -1,0 +1,150 @@
+
+<div id="areaComment">
+  <div class="reply_wrap">
+    <div class="replyContent">
+      <div class="replyWrite f_clear">
+        <a class="go_re_list" href="#">
+          <span class="title">댓글 <em id="totalcntComment">28</em></span>
+        </a>
+        <button class="reply_guid_btn" aria-controls="notes"><span>댓글 운영 원칙 안내</span></button>
+      </div>
+      <!-- AOS4.4 이슈로 인한 수정:S -->
+      <div class="write_btn" id="op_write" style="display: block;">
+          <a class="colgray">댓글을 작성해 주세요.</a>
+      </div>
+      
+      <form name="frmCmt" id="frmCmt" method="POST" action="http://m.comm.news.nate.com/comment/commonComment/writeAction">
+        <input type="hidden" name="__natkn" value="" id="__natkn">
+        <input type="hidden" name="r_url" value="http://m.comm.news.nate.com/poll/result?poll_sq=22671&amp;section=ent&amp;mid=e0008">
+        <input type="hidden" name="ctgr_cd" value="100"> <input type="hidden" name="ctgr_sq" value="22671">
+        <input type="hidden" name="mid" value="">
+        <input type="hidden" name="sndData" value="0">
+        <fieldset class="write" id="exp_write" style="display: none;">
+          <legend>댓글쓰기</legend>
+          <div class="textArea">
+            <!-- AOS4.4 이슈로 인한 수정:S -->
+            <textarea title="댓글 입력" name="cmt_content" id="cmt_content" class="colgray" placeholder="명예훼손, 개인정보 유출, 인격권 침해, 허위사실 유포 등은 이용약관 및 관련 법률에 의해 제재를 받을 수 있습니다. 건전한 댓글문화 정착을 위해 이용에 주의를 부탁드립니다."></textarea>						
+          </div>
+          <div class="btn">
+                      <a id="cls_wbox" href="javascript:void()">취소</a>
+                      <a href="#" class="ok"><span class="reg">등록</span></a>
+                  </div>
+          <script type="text/javascript">					
+                    var writeForm = {
+                        target : {
+                            cancelBtn : document.getElementById('cls_wbox'),
+                            txtAreaWrap : document.getElementById('exp_write'),
+                            txtArea : document.getElementById('cmt_content'),
+                            txtNoti : document.getElementById('op_write'),
+                            emoticon : document.querySelectorAll('.emoticon_select label')
+                        },
+                        // 클릭시 
+                        show : function(e){
+                            e.preventDefault();
+                            writeForm.target.txtNoti.style.display = 'none';
+                            writeForm.target.txtAreaWrap.style.display = 'block';
+                            writeForm.target.txtArea.focus();
+                        },
+                        close : function(){
+                            writeForm.target.txtNoti.style.display = 'block';
+                            writeForm.target.txtAreaWrap.style.display = 'none';
+                        },
+                        // 이모티콘 클릭 시
+                        click : function(e){
+                            var _input = e.target.previousSibling;
+                            var isChecked = _input.checked;
+                            if(isChecked){
+                                e.preventDefault();       
+                                _input.checked = false;
+                            }
+                        }
+                    };
+                    window.addEventListener('load', function(){
+                        writeForm.target.txtNoti.onclick = writeForm.show;
+                        writeForm.target.cancelBtn.onclick = writeForm.close;
+                        for(var i=0;i<writeForm.target.emoticon.length;i++){
+                            writeForm.target.emoticon[i].onclick = writeForm.click;
+                        }
+                    });
+          </script>
+        </fieldset>
+      </form>
+      <!-- AOS4.4 이슈로 인한 수정:E-->
+      <!-- //댓글쓰기 -->
+      <!-- 댓글리스트 -->
+      <div class="reply_best_wrap">
+        <div class="reply">
+          <dl>
+            <dt>
+              <span class="bestReple">베플</span>
+              <span><a href="http://m.comm.news.nate.com/My/Comment?uid=10046970726" class="n">jeny****</a></span>
+              <em>08.02 11:55</em>
+            </dt>
+            <dd class="userText">[inc/module]이모티콘없는댓글프레임.html / 당연히 김우빈 수지라고 생각했는데 뭐지?<br> </dd>
+            <dd class="btn">
+              <p class="updw">
+                <a href="#" class="read"><em>추천</em><span>117</span></a>
+                <a href="#" class="read"><em class="no">반대</em><span>52</span></a>
+              </p>
+            </dd>
+          </dl>
+        </div>
+        <div class="reply">
+          <dl>
+            <dt>
+              <span class="bestReple">베플</span>
+              <span><a href="http://m.comm.news.nate.com/My/Comment?uid=10046970726" class="n">jeny****</a></span>
+              <em>08.02 11:55</em>
+            </dt>
+            <dd class="userText">당연히 김우빈 수지라고 생각했는데 뭐지?<br> </dd>
+            <dd class="btn">
+              <p class="updw">
+                <a href="#" class="read"><em>추천</em><span>117</span></a>
+                <a href="#" class="read"><em class="no">반대</em><span>52</span></a>
+              </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="reply_common_wrap" id="reply_common_wrap">
+        <div class="reply others">
+          <dl>
+            <dt>
+              <span><a href="http://m.comm.news.nate.com/My/Comment?uid=10056863736" class="n">김유진</a></span>
+              <em>08.03 08:45</em>
+            </dt>
+            <dd class="userText">수지&amp;우빈</dd>
+            <dd class="btn">
+              <p class="updw">
+                <a href="#" class="read"><em>추천</em><span>5</span></a>
+                <a href="#" class="read"><em class="no">반대</em><span>4</span></a>
+              </p>
+            </dd>
+          </dl>
+        </div>				
+        <div class="reply others">
+          <dl>
+            <dt>
+              <span><a href="http://m.comm.news.nate.com/My/Comment?uid=10056863736" class="n">김유진</a></span>
+              <em>08.03 08:45</em>
+            </dt>
+            <dd class="userText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur debitis maxime, dolor fugit ipsa esse officiis vel distinctio quasi alias, provident iusto at recusandae expedita repellat dolores ad. Libero, animi.</dd>
+            <dd class="btn">
+              <p class="updw">
+                <a href="#" class="read"><em>추천</em><span>5</span></a>
+                <a href="#" class="read"><em class="no">반대</em><span>4</span></a>
+              </p>
+            </dd>
+          </dl>
+        </div>			
+      </div>
+      <div class="replyBottom" id="cmtlistmore">
+        <div class="btn type1 f_clear">
+          <div class="moreWrap">
+            <div class="btn_more"><button type="button" onclick="getmoreCommonComment();olapclick('NEWRE17');"><span>더보기</span></button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -93,7 +93,7 @@
           </header>
           <article>
             <div id="txt_size" class="view_cont">
-              @@include("@@ROOT/m/src/doc/sports/include/contents.html")
+              @@include("../include/view_contents.html")
             </div>
             <div class="isolation">
               <div class="notice">댓글 차단</div>
@@ -303,10 +303,10 @@
       
     </div>
   </section>
-  @@include("@@SRC/m/src/include/module/viewAiSummaryPop.html", {
+  @@include("../include/view_ai_summary_pop.html", {
       type: "active"
   })
-  @@include("@@ROOT/m/src/include/module/viewAppPop2023.html")
+  @@include("../include/view_app_pop_2023.html")
   @@include("../include/scroll_top.html")
   @@include("../include/footer.html")
 <script>
@@ -372,6 +372,52 @@
           }
       }, INIT_DELAY);
       observer.observe(observeArea);
+
+  // 기사뷰 폰트 사이즈 제어
+  const fontSizingPopupBtn =  document.querySelector('.font_size');
+  const fontSizingLayerPopup = document.querySelector('.font_sizing_popup');
+  const fontSizingBtns = document.querySelectorAll('.font_sizing_popup li button');
+  const article = document.getElementById('txt_size');
+  const regex = /[^0-9]/g;
+  const isFontSize = fontSizingPopupBtn && fontSizingLayerPopup && fontSizingBtns;
+  if(isFontSize){
+    fontSizingPopupBtn.addEventListener('click', function(){
+      console.log('a')
+      if(!fontSizingLayerPopup.classList.contains('active')){
+        fontSizingLayerPopup.classList.add('active');
+      } else {
+        fontSizingLayerPopup.classList.remove('active');
+      }
+    })
+    if(localStorage.getItem('fontSizeValue')){
+      const localNum = localStorage.getItem('fontSizeValue').replace(regex, "");
+      const getNum = Number(localNum) - 1;
+      article.className = 'view_cont ' + localStorage.getItem('fontSizeValue'); 
+      fontSizingBtns[getNum].classList.add('active');
+    } else {
+      // normal fontSize active
+      fontSizingBtns[1].classList.add('active');
+    }
+    function changeActiveTab(tabIndex){
+      fontSizingBtns.forEach((items, idx) => {
+        if(idx === tabIndex){
+          items.classList.add('active');
+        } else {
+          items.classList.remove('active');
+        }
+      })
+    }
+    fontSizingBtns.forEach((items, idx) => {
+      items.addEventListener('click', function(){
+        changeActiveTab(idx);
+        article.className = 'view_cont textSize_v' + (idx + 1);
+        fontSizingLayerPopup.classList.remove('active');
+        localStorage.setItem('fontSizeValue', 'textSize_v' + String(idx + 1))
+        // ndrclick('RAM' + String(idx + 108));				
+      })
+    })
+  }
+
   })()
 
   setSwiper();
