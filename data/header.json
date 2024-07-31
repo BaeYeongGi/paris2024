@@ -4,15 +4,18 @@
     "medal": {
       "gold": {
         "name": "금메달",
-        "count": 4
+        "count": 4,
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon_medalist_gold.png"
       },
       "silver": {
         "name": "은메달",
-        "count": 4
+        "count": 4,
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon_medalist_silver.png"
       },
       "bronze": {
         "name": "동메달",
-        "count": 5
+        "count": 5,
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon_medalist_bronze.png"
       }
     }
   }
