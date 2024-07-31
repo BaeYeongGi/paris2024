@@ -1,17 +1,19 @@
 {
   "data": {
     "totalRank": 3,
-    "gold": {
-      "name": "금메달",
-      "count": 4
-    },
-    "silver": {
-      "name": "은메달",
-      "count": 4
-    },
-    "bronze": {
-      "name": "동메달",
-      "count": 5
+    "medal": {
+      "gold": {
+        "name": "금메달",
+        "count": 4
+      },
+      "silver": {
+        "name": "은메달",
+        "count": 4
+      },
+      "bronze": {
+        "name": "동메달",
+        "count": 5
+      }
     }
   }
 }
