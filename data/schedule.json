@@ -1,0 +1,271 @@
+{
+  "data": {
+    "dateList": [
+      {
+        "id": 1,
+        "game": "개회식",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-open.png",
+        "tournament": "",
+        "time": "09:00",
+        "state": "over",
+        "contents": "",
+        "medal": ""
+      },
+      {
+        "id": 2,
+        "game": "배드민턴",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-badminton.png",
+        "tournament": "여자 단식 조별예선 A조",
+        "time": "09:30",
+        "state": "over",
+        "contents": "홍길동 2:0 승",
+        "medal": ""
+      },
+      {
+        "id": 3,
+        "game": "탁구",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-ttennis.png",
+        "tournament": "여자 단식 16강",
+        "time": "09:50",
+        "state": "over",
+        "contents": "홍길동 8강 진출",
+        "medal": "bronze"
+      },
+      {
+        "id": 4,
+        "game": "배드민턴",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-badminton.png",
+        "tournament": "혼합복식 8강",
+        "time": "10:30",
+        "state": "over",
+        "contents": "홍길동-김짱구 2:0 승",
+        "medal": ""
+      },
+      {
+        "id": 5,
+        "game": "펜싱",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-fencing.png",
+        "tournament": "남자 사브르 단체 결승",
+        "time": "10:40",
+        "state": "over",
+        "contents": "대한민국",
+        "medal": "gold"
+      },
+      {
+        "id": 6,
+        "game": "수영",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-swimm.png",
+        "tournament": "남자 배영 200m 준결선",
+        "time": "10:40",
+        "state": "over",
+        "contents": "홍길동 11위",
+        "medal": ""
+      },
+      {
+        "id": 6,
+        "game": "수영",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-swimm.png",
+        "tournament": "남자 배영 200m 준결선",
+        "time": "10:40",
+        "state": "over",
+        "contents": "홍길동 11위",
+        "medal": ""
+      },
+      {
+        "id": 7,
+        "game": "핸드볼",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-handball.png",
+        "tournament": "여자 예선 A조",
+        "time": "13:40",
+        "state": "",
+        "contents": "대한민국 : 스웨덴",
+        "medal": ""
+      },
+      {
+        "id": 8,
+        "game": "골프",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-golf.png",
+        "tournament": "남자 1라운드",
+        "time": "14:20",
+        "state": "gaming",
+        "contents": "김짱구,김철수 출전",
+        "medal": ""
+      }  
+    ],
+    "eventList": {
+      "games": [
+       {
+        "id": 1,
+        "name": "golf",
+        "text": "골프",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-golf.png"
+       },
+       {
+        "id": 2,
+        "name": "modernp",
+        "text": "근대5종",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-modernp.png"
+       },
+       {
+        "id": 3,
+        "name": "wrestling",
+        "text": "레슬링",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-wrestling.png"
+       },
+       {
+        "id": 4,
+        "name": "badminton",
+        "text": "배드민턴",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-badminton.png"
+       },
+       {
+        "id": 5,
+        "name": "boxing",
+        "text": "복싱",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-boxing.png"
+       },
+       {
+        "id": 6,
+        "name": "breaking",
+        "text": "브레이킹",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-breaking.png"
+       },
+       {
+        "id": 7,
+        "name": "shooting",
+        "text": "슈팅",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-shooting.png"
+       },
+       {
+        "id": 8,
+        "name": "cycling",
+        "text": "사이클",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-cycling.png"
+       },
+       {
+        "id": 9,
+        "name": "swimm",
+        "text": "수영",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-swimm.png"
+       },
+       {
+        "id": 10,
+        "name": "equestrian",
+        "text": "승마",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-equestrian.png"
+       },
+       {
+        "id": 11,
+        "name": "archery",
+        "text": "양궁",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-archery.png"
+       },
+       {
+        "id": 12,
+        "name": "weightlif",
+        "text": "역도",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-weightlif.png"
+       }
+      ],
+      "golf": [
+        {
+          "id": 1,
+          "tournament": "남자 1라운드",
+          "time": "8.1.목 16:00",
+          "state": "gaming",
+          "contents": "김짱구,김철수 출전",
+          "medal": ""
+        },
+        {
+          "id": 2,
+          "tournament": "남자 2라운드",
+          "time": "8.1.목 17:00",
+          "state": "gaming",
+          "contents": "김짱구,김철수 출전",
+          "medal": ""
+        },
+        {
+          "id": 3,
+          "tournament": "남자 3라운드",
+          "time": "8.1.목 18:00",
+          "state": "gaming",
+          "contents": "김짱구,김철수 출전",
+          "medal": ""
+        },        
+        {
+          "id": 4,
+          "tournament": "남자 4라운드",
+          "time": "8.1.목 19:00",
+          "state": "gaming",
+          "contents": "김짱구,김철수 출전",
+          "medal": ""
+        }   
+      ],
+      "modernp": [
+        {
+          "id": 1,
+          "tournament": "남자 랭킹 라운드",
+          "time": "8.3.토 12:00",
+          "state": "",
+          "contents": "김맹구,김치타 출전",
+          "medal": ""
+        },
+        {
+          "id": 2,
+          "tournament": "남자 랭킹 라운드",
+          "time": "8.3.토 14:00",
+          "state": "",
+          "contents": "김맹구,김치타 출전",
+          "medal": ""
+        },
+        {
+          "id": 3,
+          "tournament": "남자 랭킹 라운드",
+          "time": "8.3.토 16:00",
+          "state": "",
+          "contents": "김맹구,김치타 출전",
+          "medal": ""
+        }          
+      ],
+      "wrestling": [
+        {
+          "id": 1,
+          "tournament": "남자 그레코로만형 130kg급 16강",
+          "time": "8.5.토 22:00",
+          "state": "",
+          "contents": "김맹구,김치타 출전",
+          "medal": ""          
+        },
+        {
+          "id": 2,
+          "tournament": "남자 그레코로만형 130kg급 16강",
+          "time": "8.6.토 22:00",
+          "state": "",
+          "contents": "이누야샤 출전",
+          "medal": ""          
+        }
+      ],
+      "badminton": [
+        {
+          "id": 1,
+          "tournament": "혼합복식 조별예선 B조",
+          "time": "7.27.토 15:30",
+          "state": "over",
+          "contents": "셋쇼마루,쟈켄 2:0 승",
+          "medal": ""  
+        },
+        {
+          "id": 2,
+          "tournament": "여자 단식 조별예선 H조",
+          "time": "7.27.토 18:30",
+          "state": "over",
+          "contents": "사쿠라, 히나타 2:0 승",
+          "medal": ""  
+        }
+      ]
+    }
+      
+ 
+    
+  }
+}
