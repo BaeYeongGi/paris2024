@@ -62,7 +62,7 @@
         "medal": ""
       },
       {
-        "id": 6,
+        "id": 7,
         "game": "수영",
         "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-swimm.png",
         "tournament": "남자 배영 200m 준결선",
@@ -72,7 +72,7 @@
         "medal": ""
       },
       {
-        "id": 7,
+        "id": 8,
         "game": "핸드볼",
         "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-handball.png",
         "tournament": "여자 예선 A조",
@@ -82,7 +82,7 @@
         "medal": ""
       },
       {
-        "id": 8,
+        "id": 9,
         "game": "골프",
         "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-golf.png",
         "tournament": "남자 1라운드",
