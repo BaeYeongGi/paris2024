@@ -1,0 +1,140 @@
+{
+  "data": {
+    "korea": [
+      {
+        "id": 1,
+        "game": "사격",
+        "gold": 2,
+        "silver": 2,
+        "bronze": 0
+      },
+      {
+        "id": 2,
+        "game": "수영",
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },      
+      {
+        "id": 3,
+        "game": "양궁",
+        "gold": 2,
+        "silver": 0,
+        "bronze": 0
+      },      
+      {
+        "id": 4,
+        "game": "유도",
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      },           
+      {
+        "id": 5,
+        "game": "탁구",
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },          
+      {
+        "id": 6,
+        "game": "펜싱",
+        "gold": 2,
+        "silver": 0,
+        "bronze": 0
+      }                         
+    ],
+    "global": [
+      {
+        "id": 1,
+        "rank": 1,
+        "flag": "https://baeyeonggi.github.io/paris2024/images/flag_china.webp",
+        "nation": "중국",
+        "gold": 11,
+        "silver": 7,
+        "bronze": 6
+      },
+      {
+        "id": 2,
+        "rank": 2,
+        "flag": "https://baeyeonggi.github.io/paris2024/images/flag_usa.webp",
+        "nation": "미국",
+        "gold": 9,
+        "silver": 15,
+        "bronze": 13
+      },
+      {
+        "id": 3,
+        "rank": 3,
+        "flag": "https://baeyeonggi.github.io/paris2024/images/flag_france.webp",
+        "nation": "프랑스",
+        "gold": 8,
+        "silver": 11,
+        "bronze": 8
+      },           
+      {
+        "id": 4,
+        "rank": 4,
+        "flag": "https://baeyeonggi.github.io/paris2024/images/flag_australia.webp",
+        "nation": "호주",
+        "gold": 8,
+        "silver": 6,
+        "bronze": 4
+      },       
+      {
+        "id": 5,
+        "rank": 5,
+        "flag": "https://baeyeonggi.github.io/paris2024/images/japan.webp",
+        "nation": "일본",
+        "gold": 8,
+        "silver": 3,
+        "bronze": 5
+      },           
+      {
+        "id": 6,
+        "rank": 6,
+        "flag": "https://baeyeonggi.github.io/paris2024/images/england.webp",
+        "nation": "영국",
+        "gold": 6,
+        "silver": 7,
+        "bronze": 7
+      },           
+      {
+        "id": 7,
+        "rank": 7,
+        "flag": "https://baeyeonggi.github.io/paris2024/images/korea.webp",
+        "nation": "대한민국",
+        "gold": 6,
+        "silver": 3,
+        "bronze": 3
+      },           
+      {
+        "id": 8,
+        "rank": 8,
+        "flag": "https://baeyeonggi.github.io/paris2024/images/itlay.webp",
+        "nation": "이탈리아",
+        "gold": 5,
+        "silver": 7,
+        "bronze": 4
+      },          
+      {
+        "id": 9,
+        "rank": 9,
+        "flag": "https://baeyeonggi.github.io/paris2024/images/canada.webp",
+        "nation": "캐나다",
+        "gold": 3,
+        "silver": 2,
+        "bronze": 3
+      },           
+      {
+        "id": 10,
+        "rank": 10,
+        "flag": "https://baeyeonggi.github.io/paris2024/images/flag_netherlands.webp",
+        "nation": "네덜란드",
+        "gold": 2,
+        "silver": 2,
+        "bronze": 2
+      }                    
+    ]
+  }
+}
