@@ -84,7 +84,7 @@
       {
         "id": 5,
         "rank": 5,
-        "flag": "https://baeyeonggi.github.io/paris2024/images/japan.webp",
+        "flag": "https://baeyeonggi.github.io/paris2024/images/flag_japan.webp",
         "nation": "일본",
         "gold": 8,
         "silver": 3,
@@ -93,7 +93,7 @@
       {
         "id": 6,
         "rank": 6,
-        "flag": "https://baeyeonggi.github.io/paris2024/images/england.webp",
+        "flag": "https://baeyeonggi.github.io/paris2024/images/flag_england.webp",
         "nation": "영국",
         "gold": 6,
         "silver": 7,
@@ -102,7 +102,7 @@
       {
         "id": 7,
         "rank": 7,
-        "flag": "https://baeyeonggi.github.io/paris2024/images/korea.webp",
+        "flag": "https://baeyeonggi.github.io/paris2024/images/flag_korea.webp",
         "nation": "대한민국",
         "gold": 6,
         "silver": 3,
@@ -111,7 +111,7 @@
       {
         "id": 8,
         "rank": 8,
-        "flag": "https://baeyeonggi.github.io/paris2024/images/itlay.webp",
+        "flag": "https://baeyeonggi.github.io/paris2024/images/flag_itlay.webp",
         "nation": "이탈리아",
         "gold": 5,
         "silver": 7,
@@ -120,7 +120,7 @@
       {
         "id": 9,
         "rank": 9,
-        "flag": "https://baeyeonggi.github.io/paris2024/images/canada.webp",
+        "flag": "https://baeyeonggi.github.io/paris2024/images/flag_canada.webp",
         "nation": "캐나다",
         "gold": 3,
         "silver": 2,
