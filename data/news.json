@@ -30,110 +30,130 @@
       ]
     },
     "slide_news": [
+      
       [
         {
-          "id": 1,
-          "thumbnail": "https://picsum.photos/110/66",
-          "player": true,
-          "title": "파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 ",
-          "media": "연합뉴스",
-          "contents": ""
-        },
-        {
-          "id": 2,
-          "thumbnail": "",
-          "player": null,
-          "title": "파리 올림픽 더미 두번째 텍스트 파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 ",
-          "media": "",
-          "contents": ""
-        },
-        {
-          "id": 3,
-          "thumbnail": "",
-          "player": null,
-          "title": "파리 올림픽 더미 두번째 텍스트 파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 ",
-          "media": "",
-          "contents": ""
-        },
-        {
-          "id": 4,
-          "thumbnail": "",
-          "player": null,
-          "title": "파리 올림픽 더미 두번째 텍스트 파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 ",
-          "media": "",
-          "contents": ""
-        }                        
+          "title": "뉴스 슬라이드 첫 번째 타이틀",
+          "contents": [
+            {
+              "id": 1,
+              "thumbnail": "https://picsum.photos/110/66",
+              "player": true,
+              "title": "파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 ",
+              "media": "연합뉴스",
+              "contents": ""
+            },
+            {
+              "id": 2,
+              "thumbnail": "",
+              "player": null,
+              "title": "파리 올림픽 더미 두번째 텍스트 파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 ",
+              "media": "",
+              "contents": ""
+            },
+            {
+              "id": 3,
+              "thumbnail": "",
+              "player": null,
+              "title": "파리 올림픽 더미 두번째 텍스트 파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 ",
+              "media": "",
+              "contents": ""
+            },
+            {
+              "id": 4,
+              "thumbnail": "",
+              "player": null,
+              "title": "파리 올림픽 더미 두번째 텍스트 파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 ",
+              "media": "",
+              "contents": ""
+            } 
+          ]
+        }             
       ],
       [
         {
-          "id": 1,
-          "thumbnail": "https://picsum.photos/110/66",
-          "player": null,
-          "title": "파리 올림픽 2-1번째 슬라이드에 있는 텍스트",
-          "media": "YTN",
-          "contents": ""
-        },
-        {
-          "id": 2,
-          "thumbnail": "https://picsum.photos/110/66",
-          "player": null,
-          "title": "파리 올림픽 2-2번째 슬라이드에 있는 텍스트",
-          "media": "스포츠 한국",
-          "contents": ""
-        }        
+          "title": "2222 두 번째 타이틀",
+          "contents": [
+            {
+              "id": 1,
+              "thumbnail": "https://picsum.photos/110/66",
+              "player": null,
+              "title": "파리 올림픽 2-1번째 슬라이드에 있는 텍스트",
+              "media": "YTN",
+              "contents": ""
+            },
+            {
+              "id": 2,
+              "thumbnail": "https://picsum.photos/110/66",
+              "player": null,
+              "title": "파리 올림픽 2-2번째 슬라이드에 있는 텍스트",
+              "media": "스포츠 한국",
+              "contents": ""
+            }   
+          ]
+        }
       ],
       [
         {
-          "id": 1,
-          "thumbnail": "",
-          "player": null,
-          "title": "파리 올림픽 3-1번째 슬라이드에 있는 텍스트",
-          "media": "YTN",
-          "contents": ""
-        },
-        {
-          "id": 2,
-          "thumbnail": "",
-          "player": null,
-          "title": "파리 올림픽 3-2번째 슬라이드에 있는 텍스트",
-          "media": "스포츠 한국",
-          "contents": ""
-        }   
+          "title": "3333 세 번째 타이틀",
+          "contents": [
+            {
+              "id": 1,
+              "thumbnail": "",
+              "player": null,
+              "title": "파리 올림픽 3-1번째 슬라이드에 있는 텍스트",
+              "media": "YTN",
+              "contents": ""
+            },
+            {
+              "id": 2,
+              "thumbnail": "",
+              "player": null,
+              "title": "파리 올림픽 3-2번째 슬라이드에 있는 텍스트",
+              "media": "스포츠 한국",
+              "contents": ""
+            }   
+          ]
+        }
       ],
       [
         {
-          "id": 1,
-          "thumbnail": "",
-          "player": null,
-          "title": "파리 올림픽 더미 네번째 4-1 텍스트 파리 올림픽 더미 네번째 텍스트 파리 올림픽 더미 네번째 텍스트 파리 올림픽 더미 네번째 텍스트 파리 올림픽 더미 네번째 텍스트 파리 올림픽 더미 네번째 텍스트 ",
-          "media": "머니투데이",
-          "contents": "파리 올림픽 콘텐츠 4-1 텍스트 파리 올림픽 콘텐츠 4-1 텍스트파리 올림픽 콘텐츠 4-1 텍스트파리 올림픽 콘텐츠 4-1 텍스트파리 올림픽 콘텐츠 4-1 텍스트파리 올림픽 콘텐츠 4-1 텍스트파리 올림픽 콘텐츠 4-1 텍스트"
-        },
-        {
-          "id": 2,
-          "thumbnail": "",
-          "player": null,
-          "title": "파리 올림픽 더미 네번째 텍스트 4-2 ",
-          "media": "tvN",
-          "contents": ""
-        },
-        {
-          "id": 3,
-          "thumbnail": "",
-          "player": null,
-          "title": "파리 올림픽 더미 네번째 텍스트 4-3",
-          "media": "CGV",
-          "contents": ""
-        },
-        {
-          "id": 4,
-          "thumbnail": "",
-          "player": null,
-          "title": "파리 올림픽 더미 네번째 텍스트 4-4 ",
-          "media": "OCN",
-          "contents": ""
-        }        
-
+          "title": "444 네 번재 타이틀",
+          "contents": [
+            {
+              "id": 1,
+              "thumbnail": "",
+              "player": null,
+              "title": "파리 올림픽 더미 네번째 4-1 텍스트 파리 올림픽 더미 네번째 텍스트 파리 올림픽 더미 네번째 텍스트 파리 올림픽 더미 네번째 텍스트 파리 올림픽 더미 네번째 텍스트 파리 올림픽 더미 네번째 텍스트 ",
+              "media": "머니투데이",
+              "contents": "파리 올림픽 콘텐츠 4-1 텍스트 파리 올림픽 콘텐츠 4-1 텍스트파리 올림픽 콘텐츠 4-1 텍스트파리 올림픽 콘텐츠 4-1 텍스트파리 올림픽 콘텐츠 4-1 텍스트파리 올림픽 콘텐츠 4-1 텍스트파리 올림픽 콘텐츠 4-1 텍스트"
+            },
+            {
+              "id": 2,
+              "thumbnail": "",
+              "player": null,
+              "title": "파리 올림픽 더미 네번째 텍스트 4-2 ",
+              "media": "tvN",
+              "contents": ""
+            },
+            {
+              "id": 3,
+              "thumbnail": "",
+              "player": null,
+              "title": "파리 올림픽 더미 네번째 텍스트 4-3",
+              "media": "CGV",
+              "contents": ""
+            },
+            {
+              "id": 4,
+              "thumbnail": "",
+              "player": null,
+              "title": "파리 올림픽 더미 네번째 텍스트 4-4 ",
+              "media": "OCN",
+              "contents": ""
+            }   
+          ]
+        }
       ]
     ]
        
