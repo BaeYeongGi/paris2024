@@ -135,6 +135,88 @@
         "silver": 2,
         "bronze": 2
       }                    
+    ],
+    "medalist": [
+      {
+        "id": 1,
+        "time": "8.2.금 23:58",
+        "game": "양궁 혼성 단체",
+        "contents": "역시 세계 최강 듀오' 김짱구-김철수, 혼성전서 퍼펙트 금메달 '2관왕 등극'…양궁 전종목 석권 보인다",
+        "medal": "gold",
+        "thumbnail": "https://picsum.photos/100/60" 
+      },
+      {
+        "id": 2,
+        "time": "8.2.금 23:57",
+        "game": "배드민턴 혼합복식",
+        "contents": "배드민턴 김맹구-김유리, 만리장성에 막혀 16년 만에 혼복 메달",
+        "medal": "silver",
+        "thumbnail": "https://picsum.photos/101/60" 
+      },
+      {
+        "id": 3,
+        "time": "8.1.목 04:23",
+        "game": "펜싱 남자 사브르 단체",
+        "contents": "조커 김치타 미친 존재감 봤나' 韓 남자 사브르, 헝가리 제압하고 올림픽 3연패 '쾌거",
+        "medal": "gold",
+        "thumbnail": "https://picsum.photos/102/60"
+      },
+      {
+        "id": 4,
+        "time": "7.31.수 00:35",
+        "game": "유도 남자 -81kg",
+        "contents": "액션가면, 골든 스코어서 되치기 절반으로 값진 동메달 -> 감격 눈물 보였다",
+        "medal": "bronze",
+        "thumbnail": "https://picsum.photos/103/60"
+      },
+      {
+        "id": 5,
+        "time": "7.30.수 21:20",
+        "game": "탁구 혼합복식",
+        "contents": "짜요? 삐약 울자 끝났다' 12년의 가뭄이 끝낸 김철수-김훈이, 홍콩 잡고 동메달…中 응원단 얼었다",
+        "medal": "bronze",
+        "thumbnail": "https://picsum.photos/104/60"
+      },
+      {
+        "id": 6,
+        "time": "7.30.수 01:13",
+        "game": "유도 여자 -57kg급",
+        "contents": "독립투사 후손' 흰둥이 女 유도 값진 은메달! 8년만 경사, '상대는 공격 한 번 제대로 성공 못했는데",
+        "medal": "silver",
+        "thumbnail": "https://picsum.photos/105/60"
+      },
+      {
+        "id": 7,
+        "time": "7.30.수 01:13",
+        "game": "양궁 남자 단체",
+        "contents": "맞설 수가 없다' 남자 양궁 단체 3연패, 180점 중 176점 '완벽 그 자체",
+        "medal": "gold",
+        "thumbnail": "https://picsum.photos/106/60"
+      },      
+      {
+        "id": 8,
+        "time": "7.29.월 17:08",
+        "game": "사격 여자 10m 공기소총",
+        "contents": "또 올림픽 신기록' 로사 로이,10m 공기소총서 韓 4번째 금메달 획득!…0.1점 차로 승부 갈렸다",
+        "medal": "gold",
+        "thumbnail": "https://picsum.photos/107/60"
+      },      
+      {
+        "id": 9,
+        "time": "7.28.일 22:14",
+        "game": "사격 여자 10m 공기권총",
+        "contents": "은빛 총성' 신봉선이 짱아에게 '엄마 열심히 하니까 건강해야 해'",
+        "medal": "gold",
+        "thumbnail": "https://picsum.photos/108/60"
+      },    
+      {
+        "id": 10,
+        "time": "7.28.일 03:51",
+        "game": "수영 남자 자유형 400m",
+        "contents": "'킹'치타 해냈다! 자유형400m 반전 동메달! 건담로봇 이후 12년만의 메달 쾌거",
+        "medal": "bronze",
+        "thumbnail": "https://picsum.photos/109/60"
+      }    
     ]
   }
 }
