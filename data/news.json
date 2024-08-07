@@ -636,8 +636,95 @@
         "title": "ii i i i iiiiiiiiiii iiiiiiii iiiiiiiii"
       }                            
     ],
-    "news_page": [
-      [
+    "news_page": {
+      "date": [
+        {
+          "id": 1,
+          "dayOfTheWeek": "월",
+          "date": "22" 
+        },
+        {
+          "id": 2,
+          "dayOfTheWeek": "화",
+          "date": "23" 
+        },
+        {
+          "id": 3,
+          "dayOfTheWeek": "수",
+          "date": "24" 
+        },
+        {
+          "id": 4,
+          "dayOfTheWeek": "목",
+          "date": "25" 
+        },
+        {
+          "id": 5,
+          "dayOfTheWeek": "금",
+          "date": "26" 
+        },
+        {
+          "id": 6,
+          "dayOfTheWeek": "토",
+          "date": "27" 
+        },
+        {
+          "id": 7,
+          "dayOfTheWeek": "일",
+          "date": "28" 
+        },
+        {
+          "id": 8,
+          "dayOfTheWeek": "월",
+          "date": "29" 
+        },     
+        {
+          "id": 9,
+          "dayOfTheWeek": "화",
+          "date": "30" 
+        }, 
+        {
+          "id": 10,
+          "dayOfTheWeek": "수",
+          "date": "31"
+        },      
+        {
+          "id": 11,
+          "dayOfTheWeek": "목",
+          "date": "1" 
+        },     
+        {
+          "id": 12,
+          "dayOfTheWeek": "금",
+          "date": "2" 
+        }, 
+        {
+          "id": 13,
+          "dayOfTheWeek": "토",
+          "date": "3"
+        },         
+        {
+          "id": 14,
+          "dayOfTheWeek": "일",
+          "date": "4"
+        },         
+        {
+          "id": 15,
+          "dayOfTheWeek": "월",
+          "date": "5"
+        },         
+        {
+          "id": 16,
+          "dayOfTheWeek": "화",
+          "date": "6"
+        },                      
+        {
+          "id": 16,
+          "dayOfTheWeek": "오늘",
+          "date": "8.7"
+        }                    
+      ],
+      "page": [
         {
           "title": "주요뉴스 첫 번째 타이틀",
           "contents": [
@@ -995,6 +1082,6 @@
           ]
         }           
       ]
-    ]
+    }
   }
 }
