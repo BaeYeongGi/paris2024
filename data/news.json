@@ -635,6 +635,366 @@
         "rank": 30,
         "title": "ii i i i iiiiiiiiiii iiiiiiii iiiiiiiii"
       }                            
-    ] 
+    ],
+    "news_page": [
+      [
+        {
+          "title": "주요뉴스 첫 번째 타이틀",
+          "contents": [
+            {
+              "id": 1,
+              "thumbnail": "https://picsum.photos/110/66",
+              "player": true,
+              "title": "파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 파리 올림픽 더미 첫번째 텍스트 ",
+              "media": "연합뉴스",
+              "contents": ""
+            },
+            {
+              "id": 2,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 두번째 텍스트 주요뉴스 더미 첫번째 텍스트 주요뉴스 더미 첫번째 텍스트 주요뉴스 더미 첫번째 텍스트 ",
+              "media": "",
+              "contents": ""
+            },
+            {
+              "id": 3,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 두번째 텍스트 주요뉴스 더미 첫번째 텍스트 주요뉴스 더미 첫번째 텍스트 주요뉴스 더미 첫번째 텍스트 ",
+              "media": "",
+              "contents": ""
+            },
+            {
+              "id": 4,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 두번째 텍스트 주요뉴스 더미 첫번째 텍스트 주요뉴스 더미 첫번째 텍스트 주요뉴스 더미 첫번째 텍스트 ",
+              "media": "",
+              "contents": ""
+            },
+            {
+              "id": 5,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 두번째 텍스트 주요뉴스 더미 첫번째 텍스트 주요뉴스 더미 첫번째 텍스트 주요뉴스 더미 첫번째 텍스트 ",
+              "media": "",
+              "contents": ""
+            } 
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            {
+              "id": 6,
+              "thumbnail": "https://picsum.photos/110/66",
+              "player": false,
+              "title": "'도쿄 4위' 다이빙 다나카, 예선 12위로 준결선 진출",
+              "media": "스포츠경향",
+              "contents": "" 
+            }
+          ]
+        },
+        {
+          "title": "탁구 남자 단체전 8강 진출 '중국과 맞대결'",
+          "contents": [
+            {
+              "id": 7,
+              "thumbnail": "https://picsum.photos/110/66",
+              "player": false,
+              "title": "만리장성 붙자! 男탁구 흰둥이, 크로아티아에 3대0완승 '8강행'",
+              "media": "스포츠조선",
+              "contents": "" 
+            },
+            {
+              "id": 8,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미  ",
+              "media": "",
+              "contents": ""
+            },
+            {
+              "id": 9,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미  ",
+              "media": "",
+              "contents": ""
+            },
+            {
+              "id": 10,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미  ",
+              "media": "",
+              "contents": ""
+            },
+            {
+              "id": 11,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미  ",
+              "media": "",
+              "contents": ""
+            }                          
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            {
+              "id": 12,
+              "thumbnail": "https://picsum.photos/110/66",
+              "player": false,
+              "title": "세계 벽은 높았다 레슬링 액션가면, 패자부활전서도 탈락... 건담로봇도 첫판서 완패",
+              "media": "스포츠경향",
+              "contents": "" 
+            }
+          ]
+        },     
+        {
+          "title": "'훈이의 저격' 배드민턴협회 논란 일파만파",
+          "contents": [
+            {
+              "id": 13,
+              "thumbnail": "https://picsum.photos/110/66",
+              "player": false,
+              "title": "부상당한 훈이 '자비로라도 귀국하겠다' 했지만... '설움 폭발' 결정타",
+              "media": "JTBC",
+              "contents": "" 
+            },
+            {
+              "id": 14,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미  ",
+              "media": "",
+              "contents": ""
+            },
+            {
+              "id": 15,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미  ",
+              "media": "",
+              "contents": ""
+            },
+            {
+              "id": 16,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미  ",
+              "media": "",
+              "contents": ""
+            },
+            {
+              "id": 17,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미  ",
+              "media": "",
+              "contents": ""
+            }                          
+          ]
+        },
+        {
+          "title": "배드민턴 협회 과거 행정 재조명",
+          "contents": [
+            {
+              "id": 18,
+              "thumbnail": "https://picsum.photos/110/66",
+              "player": false,
+              "title": "선수 6명 이코노미 임원 8명 비즈니스 배드민턴협회 돌아보니 괴담만",
+              "media": "뉴스엔",
+              "contents": "" 
+            },
+            {
+              "id": 19,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미  ",
+              "media": "",
+              "contents": ""
+            },
+            {
+              "id": 20,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미  ",
+              "media": "",
+              "contents": ""
+            },
+            {
+              "id": 21,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미  ",
+              "media": "",
+              "contents": ""
+            },
+            {
+              "id": 22,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미  ",
+              "media": "",
+              "contents": ""
+            }                          
+          ]
+        },
+        {
+          "title": "오후 주요뉴스",
+          "contents": [
+            {
+              "id": 23,
+              "thumbnail": "https://picsum.photos/110/66",
+              "player": false,
+              "title": "다 안돼.. 방치된 흰둥이, 협회 대표팀은 어떤 요구도 들어주지 않았다",
+              "media": "일간스포츠",
+              "contents": "" 
+            },
+            {
+              "id": 24,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미  ",
+              "media": "",
+              "contents": ""
+            },
+            {
+              "id": 25,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미  ",
+              "media": "",
+              "contents": ""
+            },
+            {
+              "id": 26,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미  ",
+              "media": "",
+              "contents": ""
+            },
+            {
+              "id": 27,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미  ",
+              "media": "",
+              "contents": ""
+            }                          
+          ]
+        },
+        {
+          "title": "흰둥이 폭로에 정치권도 촉각",
+          "contents": [
+            {
+              "id": 28,
+              "thumbnail": "https://picsum.photos/110/66",
+              "player": false,
+              "title": "짱구도 나섰다 '흰둥이' 용기있는 폭로, 유야무야 되지 않게 하겠다",
+              "media": "스포츠한국",
+              "contents": "" 
+            },
+            {
+              "id": 29,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미  ",
+              "media": "",
+              "contents": ""
+            },
+            {
+              "id": 30,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미  ",
+              "media": "",
+              "contents": ""
+            },
+            {
+              "id": 31,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미  ",
+              "media": "",
+              "contents": ""
+            },
+            {
+              "id": 32,
+              "thumbnail": "",
+              "player": null,
+              "title": "주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미 주요뉴스 더미  ",
+              "media": "",
+              "contents": ""
+            }                          
+          ]
+        },
+        {
+          "title": "흰둥이 충격 발언 부모님 입장은?",
+          "contents": [
+            {
+              "id": 33,
+              "thumbnail": "https://picsum.photos/110/66",
+              "player": false,
+              "title": "흰둥이 부모 '특별대우 요구라는 분 있지만 혼자 외로운 싸움'",
+              "media": "한겨레",
+              "contents": "" 
+            },
+            {
+              "id": 34,
+              "thumbnail": "https://picsum.photos/110/66",
+              "player": null,
+              "title": "흰둥이 부모님도 외로운 싸움 했다 대표팀 저격",
+              "media": "YTN",
+              "contents": ""
+            }                       
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            {
+              "id": 35,
+              "thumbnail": "https://picsum.photos/110/66",
+              "player": false,
+              "title": "협회 비판 + 대표팀 은퇴 시사 흰둥이 속전속결 7일 입국... 대한체육회 인터뷰 사절",
+              "media": "엑스포츠뉴스",
+              "contents": "" 
+            }
+          ]
+        },   
+        {
+          "title": "",
+          "contents": [
+            {
+              "id": 36,
+              "thumbnail": "https://picsum.photos/110/66",
+              "player": false,
+              "title": "태권도 짱구 철수 세계 1위 넘어야 결승... 대진 확정",
+              "media": "연합뉴스",
+              "contents": "" 
+            }
+          ]
+        },                      
+        {
+          "title": "",
+          "contents": [
+            {
+              "id": 37,
+              "thumbnail": "https://picsum.photos/110/66",
+              "player": false,
+              "title": "올림픽 4회 챔피언과 랭킹 1위 사이...맹구는 포기하지 않았다",
+              "media": "중앙일보",
+              "contents": "" 
+            }
+          ]
+        }           
+      ]
+    ]
   }
 }
