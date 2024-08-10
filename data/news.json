@@ -489,17 +489,20 @@
         {
           "id": 1,
           "dayOfTheWeek": "금",
-          "date": "09" 
+          "date": "09",
+          "state": "before"
         },
         {
           "id": 2,
           "dayOfTheWeek": "오늘",
-          "date": "8.10" 
+          "date": "8.10",
+          "state": "today"
         },
         {
           "id": 3,
           "dayOfTheWeek": "일",
-          "date": "11" 
+          "date": "11",
+          "state": "invalid"
         }
       ],
       "contents": [
