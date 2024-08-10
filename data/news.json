@@ -384,7 +384,7 @@
       ],
       "photo": {
         "title": "파리 얼짱몸짱",
-        "contents:": [
+        "contents": [
           {
             "id": 1,
             "thumbnail": "https://picsum.photos/168/115",
@@ -1104,6 +1104,9 @@
           ]
         }           
       ]
-    }
+    },
+    "recent_news": [
+
+    ]
   }
 }
