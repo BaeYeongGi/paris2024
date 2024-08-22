@@ -1106,7 +1106,165 @@
       ]
     },
     "recent_news": [
-
+      {
+        "id": 1,
+        "thumbnail": "https://picsum.photos/110/66",
+        "player": false,
+        "title": "양궁 퀸에서 직장인으로 '올릭핌 2관왕' 맹구는 지금",
+        "media": "멋진언론사",
+        "date": "24.08.22 22:50"
+      },
+      {
+        "id": 2,
+        "thumbnail": "https://picsum.photos/110/66",
+        "player": false,
+        "title": "파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령",
+        "date": "24.08.22 22:45"
+      },
+      {
+        "id": 3,
+        "thumbnail": "",
+        "player": false,
+        "title": "양궁 퀸에서 직장인으로 '올릭핌 2관왕' 맹구는 지금",
+        "media": "멋진언론사",
+        "date": "24.08.22 22:42"
+      },
+      {
+        "id": 4,
+        "thumbnail": "https://picsum.photos/110/66",
+        "player": false,
+        "title": "파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령 파리 올림픽 조직위원장과 악수하는 마크롱 대통령",
+        "media": "멋진언론사",
+        "date": "24.08.22 22:37"
+      },        
+      {
+        "id": 5,
+        "thumbnail": "https://picsum.photos/110/66",
+        "player": false,
+        "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
+        "media": "멋진언론사",
+        "date": "24.08.22 22:32"
+      },
+      {
+        "id": 6,
+        "thumbnail": "",
+        "player": false,
+        "title": "Lorem Ipsum is simply dummy",
+        "media": "멋진언론사",
+        "date": "24.08.22 22:16"
+      },
+      {
+        "id": 7,
+        "thumbnail": "https://picsum.photos/110/66",
+        "player": false,
+        "title": "양궁 퀸에서 직장인으로 '올릭핌 2관왕' 맹구는 지금",
+        "media": "멋진언론사",
+        "date": "24.08.22 22:00"
+      }, 
+      {
+        "id": 8,
+        "thumbnail": "https://picsum.photos/110/66",
+        "player": false,
+        "title": "It is a long established fact that a reader will be distracted by the readable content",
+        "media": "멋진언론사",
+        "date": "24.08.22 21:47"
+      },      
+      {
+        "id": 9,
+        "thumbnail": "",
+        "player": false,
+        "title": "양궁 퀸에서 직장인으로 '올릭핌 2관왕' 맹구는 지금",
+        "media": "멋진언론사",
+        "date": "24.08.22 21:43"
+      },
+      {
+        "id": 10,
+        "thumbnail": "https://picsum.photos/110/66",
+        "player": false,
+        "title": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised",
+        "media": "멋진언론사",
+        "date": "24.08.22 21:40"
+      },          
+      {
+        "id": 11,
+        "thumbnail": "",
+        "player": false,
+        "title": "양궁 퀸에서 직장인으로 '올릭핌 2관왕' 맹구는 지금",
+        "media": "멋진언론사",
+        "date": "24.08.22 21:33"
+      },        
+      {
+        "id": 12,
+        "thumbnail": "",
+        "player": false,
+        "title": "that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will",
+        "media": "멋진언론사",
+        "date": "24.08.22 21:25"
+      },
+      {
+        "id": 13,
+        "thumbnail": "https://picsum.photos/110/66",
+        "player": false,
+        "title": "Lorem Ipsum is simply dummy",
+        "media": "멋진언론사",
+        "date": "24.08.22 21:11"
+      },
+      {
+        "id": 14,
+        "thumbnail": "https://picsum.photos/110/66",
+        "player": false,
+        "title": "양궁 퀸에서 직장인으로 '올릭핌 2관왕' 맹구는 지금",
+        "media": "멋진언론사",
+        "date": "24.08.22 21:08"
+      }, 
+      {
+        "id": 15,
+        "thumbnail": "https://picsum.photos/110/66",
+        "player": false,
+        "title": "It is a long established fact that a reader will be distracted by the readable content",
+        "media": "멋진언론사",
+        "date": "24.08.22 21:03"
+      },      
+      {
+        "id": 16,
+        "thumbnail": "6",
+        "player": false,
+        "title": "양궁 퀸에서 직장인으로 '올릭핌 2관왕' 맹구는 지금",
+        "media": "멋진언론사",
+        "date": "24.08.22 21:01"
+      },
+      {
+        "id": 17,
+        "thumbnail": "https://picsum.photos/110/66",
+        "player": false,
+        "title": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised",
+        "media": "멋진언론사",
+        "date": "24.08.22 20:59"
+      },          
+      {
+        "id": 18,
+        "thumbnail": "https://picsum.photos/110/66",
+        "player": false,
+        "title": "양궁 퀸에서 직장인으로 '올릭핌 2관왕' 맹구는 지금",
+        "media": "멋진언론사",
+        "date": "24.08.22 20:56"
+      },        
+      {
+        "id": 19,
+        "thumbnail": "https://picsum.photos/110/66",
+        "player": false,
+        "title": "that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will",
+        "media": "멋진언론사",
+        "date": "24.08.22 20:47"
+      },
+      {
+        "id": 20,
+        "thumbnail": "",
+        "player": false,
+        "title": "that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will",
+        "media": "멋진언론사",
+        "date": "24.08.22 20:44"
+      }
     ]
   }
 }
