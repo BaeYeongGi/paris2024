@@ -90,7 +90,27 @@
         "state": "gaming",
         "contents": "김짱구,김철수 출전",
         "medal": ""
-      }  
+      },
+      {
+        "id": 10,
+        "game": "펜싱",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-fencing.png",
+        "tournament": "남자 2라운드",
+        "time": "14:30",
+        "state": "gaming",
+        "contents": "김짱구,김철수 출전",
+        "medal": ""
+      },
+      {
+        "id": 11,
+        "game": "근대5종",
+        "img": "https://baeyeonggi.github.io/paris2024/images/icon-game-modernp.png",
+        "tournament": "남자 3라운드",
+        "time": "14:40",
+        "state": "",
+        "contents": "김짱구,김철수 출전",
+        "medal": ""
+      }     
     ],
     "eventList": {
       "games": [
