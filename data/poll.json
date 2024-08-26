@@ -3,6 +3,7 @@
     "survey": {
       "title": "'이 종목 왜 없지' 한국 미출전이 아쉬운 인기 종목은?",
       "date": "8.26.월-8.30.금",
+      "icon": "https://baeyeonggi.github.io/paris2024/images/icon_poll1.png",
       "total": 36393, 
       "state": "going",
       "current": [
