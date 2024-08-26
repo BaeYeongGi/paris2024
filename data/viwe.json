@@ -1,0 +1,101 @@
+{
+  "data": {
+    "id": 1,
+    "title": "기사 본문 페이지 타이틀",
+    "media": {
+      "name": "멋진언론사",
+      "upload": "2024-08-26 20:18",
+      "edit": "2024-08-27 22:11"
+    },
+    "reaction":{
+      "comments": 193,
+      "emotions": 321
+    },
+    "AiSummary": "기사 요약한 내용인데 AI가 요약해준 내용입니다. 긴 내용의 기사를 사용자들의 편의를 위해서 생성된 AI챗 요약입니다.",
+    "article": {
+      "summary": [
+       {
+        "id":1,
+        "text": "기사 요약 첫 번재 줄"
+       },
+       {
+        "id":2,
+        "text": "기사 요약 두 번째 줄이 길어져서 글씨 크기를 키우면 2줄로도 보일 수 있는 두 번째 줄입니다"
+       },
+       {
+        "id":3,
+        "text": "- 경우에 따라 하이픈 '-' 이 포함된 요약도 들어갈 수 있습니다"
+       }
+      ],
+      "contents": [
+        {
+          "id": 1,
+          "img": {
+            "url": ["https://picsum.photos/500/333"],
+            "caption":"기사에 포함된 사진의 캡션을 넣는 구간입니다. 텍스트는 중앙에 정렬되어 있습니다. 사진과의 간격은 20px 좌우 여백 20px이며 하단 기사본문과는 40px 차이가 납니다. line-height는 22px font-size는 15px font-weight는 400입니다 자간은 -0.3px 입니다 색상은 838383 으로 표현되고 있습니다. | 언론사A"
+          },
+          "text": "<p>■ 방송 : ABC 라디오 FM 98.1 (07:30~09:00) ■ 진행 : 홍길동 앵커 ■ 대담 : 김짱구 (시사평론가)</p><p>★ 기사 본문의 경우 color: #222 / 자간 -0.5px / 행간 28px / font-weight 400에 해당됩니다. font-size는 기존과 동일한 18px 입니다</p><p>◇ 홍길동> 김짱구의 행간. 시사평론가 김짱구 씨 나와계십니다. 어서 오십시오.</p><p>◆ 김철수&gt; 네, 안녕하세요.</p>"
+        },
+        {
+          "id": 2,
+          "img": {    
+            "url": ["https://picsum.photos/500/343", "https://picsum.photos/500/341"],
+            "caption":"기사에 포함된 사진의 캡션을 넣는 구간입니다. 텍스트는 중앙에 정렬되어 있습니다. 사진과의 간격은 20px 좌우 여백 20px이며 하단 기사본문과는 40px 차이가 납니다. line-height는 22px font-size는 15px font-weight는 400입니다 자간은 -0.3px 입니다 색상은 838383 으로 표현되고 있습니다. | 언론사B"
+          },
+          "text": "<p>◇ 김짱구> 오늘 다룰 주제로 넘어가겠습니다.</p><p>◆ 김철수>'lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>" 
+        }
+      ]
+
+    },
+    "author": {
+      "name": ["안유진 기자(eeeee@gmail.co.kr)", "장원영 기자(ccccc@gmail.com)"],
+      "policy": "저작권자ⓒ 멋진언론 통신사. 무단전재-재배포 금지"
+    },
+    "recommendNews": [
+      {
+        "id": 1,
+        "title": "멋진언론사 주요뉴스 리스트1 내용 매체사 주요뉴스 내용",
+        "link": "/"
+      },
+      {
+        "id": 2,
+        "title": "멋진언론사 주요뉴스 리스트2내용 매체사 주요뉴스 내용",
+        "link": "/"
+      },
+      {
+        "id": 3,
+        "title": "멋진언론사 주요뉴스 리스트3내용 매체사 주요뉴스 내용",
+        "link": "/"
+      },       
+      {
+        "id": 4,
+        "title": "멋진언론사 주요뉴스 리스트4내용 매체사 주요뉴스 내용",
+        "link": "/"
+      },             
+      {
+        "id": 5,
+        "title": "멋진언론사 주요뉴스 리스트5내용 매체사 주요뉴스 내용",
+        "link": "/"
+      },       
+      {
+        "id": 6,
+        "title": "멋진언론사 주요뉴스 리스트6내용 매체사 주요뉴스 내용",
+        "link": "/"
+      }                   
+    ],
+    "mediaPromotion": ["[앱 다운] 빠르고 정확한 멋진언론사를 받아보세요", "뉴스제보는 멋진언론사 aaaa 톡!"],
+    "notice": [
+      {
+        "id": 0,
+        "title": "댓글 차단",
+        "text": "위 기사에 허위정보 유포, 개인정보 유출, 욕설 등이 담긴 댓글이 올라오고 있습니다.<br/>이에 네티즌의 민형사상 불이익과 이해당사자의 명예훼손을 예방하고자 해당기사에 한해 댓글을 차단합니다.<br/>네티즌 여러분의 양해 부탁드립니다."
+      },
+      {
+        "id": 1,
+        "title": "정정보도문",
+        "text": "본지는 6월25일자 1판(인천)1면에 포도당 의원 11명의 백령도 시찰과 관련해 국정원측에 사과드립니다."
+      }
+    ],
+    "hash": ["핵심태그", "핵심키워드", "청와대", "수첩", "김철수"]
+  }
+}
